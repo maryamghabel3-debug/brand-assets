@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Simplified Bold Persian Shamsa Star & French Serif 'R' Monogram -->
+  <!-- Designed for maximum clarity and readability from 512px down to 16px favicon -->
+  <g transform="translate(256, 256)">
+    
+    <!-- Bold Octagonal Shamsa Star Frame -->
+    <g stroke="#000000" stroke-width="14" fill="none" stroke-linejoin="round">
+      <!-- Intersecting 8-Pointed Star Squares -->
+      <polygon points="0,-195 138,-138 195,0 138,138 0,195 -138,138 -195,0 -138,-138"/>
+      <polygon points="0,-155 110,-110 155,0 110,110 0,155 -110,110 -155,0 -110,-110" stroke-width="6" opacity="0.6"/>
+    </g>
+    
+    <!-- 8 Radiant Star Cusps for Crisp Silhouette -->
+    <g fill="#000000">
+      <polygon points="0,-218 16,-185 -16,-185"/>
+      <polygon points="0,218 16,185 -16,185"/>
+      <polygon points="-218,0 -185,16 -185,-16"/>
+      <polygon points="218,0 185,16 185,-16"/>
+      <polygon points="154,-154 116,-132 132,-116"/>
+      <polygon points="-154,-154 -116,-132 -132,-116"/>
+      <polygon points="154,154 116,132 132,116"/>
+      <polygon points="-154,154 -116,132 -132,116"/>
+    </g>
+
+    <!-- Bold Classic French Serif + Persian Calligraphy Sweep 'R' Monogram -->
+    <g fill="#000000">
+      <!-- Strong Didot Vertical Stem with Sturdy Serifs -->
+      <path d="M -64,-96 L -40,-96 L -40,78 L -64,78 L -64,96 L -10,96 L -10,78 L -24,78 L -24,-78 L -10,-78 L -10,-96 L -64,-96 Z"/>
+      
+      <!-- Upper Bowl with Bold High-Contrast Curve -->
+      <path d="M -24,-96 C 24,-96 72,-94 72,-40 C 72,5 36,22 -12,24 L -24,24 L -24,-96 Z M -8,-76 L -8,6 C 30,6 48,2 48,-36 C 48,-72 26,-76 -8,-76 Z"/>
+      
+      <!-- Persian Royal Calligraphy Sweeping Tail -->
+      <path d="M -1,12 C 16,12 36,40 58,74 C 68,88 78,96 102,96 L 102,78 C 88,78 78,70 66,52 C 44,22 28,-2 4,-2 L -24,-2 L -24,14 L -1,12 Z"/>
+      
+      <!-- Royal Diamond Dot Inside Bowl -->
+      <polygon points="16,-38 24,-30 16,-22 8,-30"/>
+    </g>
+    
+  </g>
+</svg>
