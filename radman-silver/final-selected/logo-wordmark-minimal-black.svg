@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="100%" height="100%">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Montserrat:wght@600;700&amp;display=swap');
+    
+    .wordmark-text {
+      font-family: 'Cinzel', 'Didot', 'Bodoni MT', 'Cormorant Garamond', serif;
+      font-size: 120px;
+      font-weight: 700;
+      fill: #000000;
+      letter-spacing: 0.28em;
+      text-anchor: middle;
+    }
+    
+    .tagline-text {
+      font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      fill: #000000;
+      letter-spacing: 0.55em;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Direction A — Pure Luxury Wordmark -->
+  <g transform="translate(0, 0)">
+    <text x="800" y="195" class="wordmark-text" aria-label="RADMAN">
+      <tspan x="550">R</tspan>
+      <tspan x="650">A</tspan>
+      <tspan x="750">D</tspan>
+      <tspan x="850">M</tspan>
+      <tspan x="950">A</tspan>
+      <tspan x="1050">N</tspan>
+    </text>
+    
+    <text x="800" y="300" class="tagline-text" aria-label="SILVER 925">
+      <tspan x="580">S</tspan>
+      <tspan x="624">I</tspan>
+      <tspan x="668">L</tspan>
+      <tspan x="712">V</tspan>
+      <tspan x="756">E</tspan>
+      <tspan x="800">R</tspan>
+      <tspan x="888">9</tspan>
+      <tspan x="932">2</tspan>
+      <tspan x="976">5</tspan>
+    </text>
+  </g>
+</svg>
