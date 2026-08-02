@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RADMAN SILVER — Full Visual Audit &amp; All Versions Master Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #0A0A0E;
+      --bg-card: #121217;
+      --border-color: #27272A;
+      --text-main: #E2E8F0;
+      --text-muted: #94A3B8;
+      --accent-gold: #D4AF37;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(180deg, #18181F 0%, #0A0A0E 100%);
+    }
+
+    .eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5em;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      letter-spacing: 0.35em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    .section-box {
+      margin: 60px 0;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      background: var(--bg-card);
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    .section-header {
+      padding: 28px 35px;
+      border-bottom: 1px solid var(--border-color);
+      background: #181820;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .section-header h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: #FFFFFF;
+      margin-bottom: 4px;
+    }
+
+    .section-header p {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+    }
+
+    .count-badge {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: var(--accent-gold);
+      background: rgba(212, 175, 55, 0.1);
+      padding: 8px 18px;
+      border-radius: 20px;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      white-space: nowrap;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1px;
+      background: var(--border-color);
+    }
+
+    .card {
+      background: var(--bg-card);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      z-index: 2;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+    }
+
+    .card-preview {
+      height: 240px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .bg-dark { background-color: #0E0E12; }
+    .bg-light { background-color: #FAFAFA; }
+    .bg-checker {
+      background-color: #1A1A22;
+      background-image: 
+        linear-gradient(45deg, #24242E 25%, transparent 25%), 
+        linear-gradient(-45deg, #24242E 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #24242E 75%), 
+        linear-gradient(-45deg, transparent 75%, #24242E 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    }
+
+    .card-preview img {
+      max-width: 90%;
+      max-height: 190px;
+      object-fit: contain;
+      transition: transform 0.25s ease;
+    }
+
+    .card-preview:hover img {
+      transform: scale(1.05);
+    }
+
+    .file-icon-preview {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #94A3B8;
+      letter-spacing: 0.2em;
+    }
+
+    .card-body {
+      padding: 22px 25px;
+      border-top: 1px solid var(--border-color);
+      background: #14141A;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-body h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 0.15em;
+      margin-bottom: 6px;
+      word-break: break-all;
+    }
+
+    .path-text {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: monospace;
+      margin-bottom: 14px;
+      word-break: break-all;
+    }
+
+    .meta-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .badge-yes { background: rgba(16, 185, 129, 0.15); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-no { background: rgba(148, 163, 184, 0.15); color: #94A3B8; border: 1px solid rgba(148, 163, 184, 0.3); }
+    .badge-ext { background: rgba(212, 175, 55, 0.15); color: var(--accent-gold); border: 1px solid rgba(212, 175, 55, 0.3); }
+
+    .btn-row {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .btn-link {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      color: #60A5FA;
+      text-decoration: none;
+    }
+
+    .btn-link:hover { text-decoration: underline; }
+
+    /* Modal Lightbox */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.92);
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .modal-content {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      border: 2px solid #3F3F46;
+      border-radius: 8px;
+      background: #0E0E12;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 25px;
+      right: 35px;
+      color: #FFFFFF;
+      font-size: 36px;
+      font-weight: 700;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .modal-caption {
+      position: absolute;
+      bottom: 25px;
+      color: #E2E8F0;
+      font-family: 'Cinzel', serif;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 11px;
+      letter-spacing: 0.35em;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 768px) {
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="eyebrow">Haute Joaillerie Maison • Complete Repository Inspection</div>
+    <h1>RADMAN SILVER — MASTER LOGO AUDIT GALLERY</h1>
+    <div class="subtitle">Every Visual Version Across All Generations &amp; Folders (81 Total Files Cataloged)</div>
+  </header>
+
+  <div class="container">
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>1. Original V1 (Initial French Didot & Persian Shamsa Suite)</h2>
+          <p>The original approved brand identity direction (French Haute Joaillerie serif + Shamsa star).</p>
+        </div>
+        <span class="count-badge">21 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.png" alt="logo-dark-v1.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.png', 'logo-dark-v1.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-dark-v1.png</h3>
+            <div class="path-text">radman-silver/final/logo-dark-v1.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.svg" alt="logo-dark-v1.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.svg', 'logo-dark-v1.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-dark-v1.svg</h3>
+            <div class="path-text">radman-silver/final/logo-dark-v1.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-dark-v1.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.png" alt="logo-light-v1.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.png', 'logo-light-v1.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-light-v1.png</h3>
+            <div class="path-text">radman-silver/final/logo-light-v1.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.svg" alt="logo-light-v1.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.svg', 'logo-light-v1.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-light-v1.svg</h3>
+            <div class="path-text">radman-silver/final/logo-light-v1.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-light-v1.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.png" alt="logo-monogram-v1.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.png', 'logo-monogram-v1.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-monogram-v1.png</h3>
+            <div class="path-text">radman-silver/final/logo-monogram-v1.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.svg" alt="logo-monogram-v1.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.svg', 'logo-monogram-v1.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-monogram-v1.svg</h3>
+            <div class="path-text">radman-silver/final/logo-monogram-v1.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/logo-monogram-v1.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-512.png" alt="radman-monogram-512.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-512.png', 'radman-monogram-512.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-monogram-512.png</h3>
+            <div class="path-text">radman-silver/final/radman-monogram-512.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-512.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.png" alt="radman-monogram-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.png', 'radman-monogram-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-monogram-black.png</h3>
+            <div class="path-text">radman-silver/final/radman-monogram-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.svg" alt="radman-monogram-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.svg', 'radman-monogram-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-monogram-black.svg</h3>
+            <div class="path-text">radman-silver/final/radman-monogram-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.png" alt="radman-monogram-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.png', 'radman-monogram-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-monogram-white.png</h3>
+            <div class="path-text">radman-silver/final/radman-monogram-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.svg" alt="radman-monogram-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.svg', 'radman-monogram-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-monogram-white.svg</h3>
+            <div class="path-text">radman-silver/final/radman-monogram-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-monogram-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.png" alt="radman-secondary-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.png', 'radman-secondary-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-secondary-black.png</h3>
+            <div class="path-text">radman-silver/final/radman-secondary-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.svg" alt="radman-secondary-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.svg', 'radman-secondary-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-secondary-black.svg</h3>
+            <div class="path-text">radman-silver/final/radman-secondary-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.png" alt="radman-secondary-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.png', 'radman-secondary-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-secondary-white.png</h3>
+            <div class="path-text">radman-silver/final/radman-secondary-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.svg" alt="radman-secondary-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.svg', 'radman-secondary-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-secondary-white.svg</h3>
+            <div class="path-text">radman-silver/final/radman-secondary-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-secondary-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.png" alt="radman-wordmark-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.png', 'radman-wordmark-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-wordmark-black.png</h3>
+            <div class="path-text">radman-silver/final/radman-wordmark-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.svg" alt="radman-wordmark-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.svg', 'radman-wordmark-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-wordmark-black.svg</h3>
+            <div class="path-text">radman-silver/final/radman-wordmark-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.png" alt="radman-wordmark-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.png', 'radman-wordmark-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-wordmark-white.png</h3>
+            <div class="path-text">radman-silver/final/radman-wordmark-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.svg" alt="radman-wordmark-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.svg', 'radman-wordmark-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-wordmark-white.svg</h3>
+            <div class="path-text">radman-silver/final/radman-wordmark-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final/radman-wordmark-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.png" alt="logo-master-sheet.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.png', 'logo-master-sheet.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-master-sheet.png</h3>
+            <div class="path-text">radman-silver/variations/logo-master-sheet.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.svg" alt="logo-master-sheet.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.svg', 'logo-master-sheet.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-master-sheet.svg</h3>
+            <div class="path-text">radman-silver/variations/logo-master-sheet.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/variations/logo-master-sheet.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>2. V1 Restored (Approved V1 Artwork with Corrected Exports)</h2>
+          <p>100% uncropped, high-contrast, production-ready exports of the V1 design on matte black, ivory, and transparent backgrounds.</p>
+        </div>
+        <span class="count-badge">17 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent-1200.png" alt="radman-v1-charcoal-transparent-1200.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent-1200.png', 'radman-v1-charcoal-transparent-1200.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-charcoal-transparent-1200.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-charcoal-transparent-1200.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent-1200.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent.svg" alt="radman-v1-charcoal-transparent.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent.svg', 'radman-v1-charcoal-transparent.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-charcoal-transparent.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-charcoal-transparent.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-charcoal-transparent.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-1200.png" alt="radman-v1-dark-on-black-1200.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-1200.png', 'radman-v1-dark-on-black-1200.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-dark-on-black-1200.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-dark-on-black-1200.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-1200.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-2400.png" alt="radman-v1-dark-on-black-2400.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-2400.png', 'radman-v1-dark-on-black-2400.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-dark-on-black-2400.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-dark-on-black-2400.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black-2400.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black.svg" alt="radman-v1-dark-on-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black.svg', 'radman-v1-dark-on-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-dark-on-black.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-dark-on-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-dark-on-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-1200.png" alt="radman-v1-light-on-ivory-1200.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-1200.png', 'radman-v1-light-on-ivory-1200.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-light-on-ivory-1200.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-light-on-ivory-1200.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-1200.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-2400.png" alt="radman-v1-light-on-ivory-2400.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-2400.png', 'radman-v1-light-on-ivory-2400.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-light-on-ivory-2400.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-light-on-ivory-2400.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory-2400.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory.svg" alt="radman-v1-light-on-ivory.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory.svg', 'radman-v1-light-on-ivory.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-light-on-ivory.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-light-on-ivory.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-light-on-ivory.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-180.png" alt="radman-v1-monogram-180.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-180.png', 'radman-v1-monogram-180.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-monogram-180.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-monogram-180.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-180.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-32.png" alt="radman-v1-monogram-32.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-32.png', 'radman-v1-monogram-32.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-monogram-32.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-monogram-32.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-32.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-512.png" alt="radman-v1-monogram-512.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-512.png', 'radman-v1-monogram-512.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-monogram-512.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-monogram-512.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-512.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-64.png" alt="radman-v1-monogram-64.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-64.png', 'radman-v1-monogram-64.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-monogram-64.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-monogram-64.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram-64.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram.svg" alt="radman-v1-monogram.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram.svg', 'radman-v1-monogram.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-monogram.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-monogram.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-monogram.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.png" alt="radman-v1-restored-review.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.png', 'radman-v1-restored-review.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-restored-review.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-restored-review.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.svg" alt="radman-v1-restored-review.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.svg', 'radman-v1-restored-review.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-restored-review.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-restored-review.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-restored-review.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent-1200.png" alt="radman-v1-silver-transparent-1200.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent-1200.png', 'radman-v1-silver-transparent-1200.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-silver-transparent-1200.png</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-silver-transparent-1200.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent-1200.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent.svg" alt="radman-v1-silver-transparent.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent.svg', 'radman-v1-silver-transparent.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v1-silver-transparent.svg</h3>
+            <div class="path-text">radman-silver/final-v1-restored/radman-v1-silver-transparent.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v1-restored/radman-v1-silver-transparent.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>3. V2 Concepts (Simplified Directions A, B, C, D)</h2>
+          <p>Simplified design directions created during Phase-1 exploration.</p>
+        </div>
+        <span class="count-badge">16 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black-1600.png" alt="radman-v2-a-wordmark-black-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black-1600.png', 'radman-v2-a-wordmark-black-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-a-wordmark-black-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-a-wordmark-black-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black.svg" alt="radman-v2-a-wordmark-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black.svg', 'radman-v2-a-wordmark-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-a-wordmark-black.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-a-wordmark-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white-1600.png" alt="radman-v2-a-wordmark-white-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white-1600.png', 'radman-v2-a-wordmark-white-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-a-wordmark-white-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-a-wordmark-white-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white.svg" alt="radman-v2-a-wordmark-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white.svg', 'radman-v2-a-wordmark-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-a-wordmark-white.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-a-wordmark-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-a-wordmark-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black-1600.png" alt="radman-v2-b-ornament-black-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black-1600.png', 'radman-v2-b-ornament-black-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-b-ornament-black-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-b-ornament-black-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black.svg" alt="radman-v2-b-ornament-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black.svg', 'radman-v2-b-ornament-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-b-ornament-black.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-b-ornament-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white-1600.png" alt="radman-v2-b-ornament-white-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white-1600.png', 'radman-v2-b-ornament-white-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-b-ornament-white-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-b-ornament-white-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white.svg" alt="radman-v2-b-ornament-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white.svg', 'radman-v2-b-ornament-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-b-ornament-white.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-b-ornament-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-b-ornament-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-512.png" alt="radman-v2-c-monogram-512.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-512.png', 'radman-v2-c-monogram-512.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-c-monogram-512.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-c-monogram-512.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-512.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-black.svg" alt="radman-v2-c-monogram-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-black.svg', 'radman-v2-c-monogram-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-c-monogram-black.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-c-monogram-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white-512.png" alt="radman-v2-c-monogram-white-512.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white-512.png', 'radman-v2-c-monogram-white-512.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-c-monogram-white-512.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-c-monogram-white-512.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white-512.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white.svg" alt="radman-v2-c-monogram-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white.svg', 'radman-v2-c-monogram-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-c-monogram-white.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-c-monogram-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-c-monogram-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black-1600.png" alt="radman-v2-d-header-black-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black-1600.png', 'radman-v2-d-header-black-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-d-header-black-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-d-header-black-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black.svg" alt="radman-v2-d-header-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black.svg', 'radman-v2-d-header-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-d-header-black.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-d-header-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white-1600.png" alt="radman-v2-d-header-white-1600.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white-1600.png', 'radman-v2-d-header-white-1600.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-d-header-white-1600.png</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-d-header-white-1600.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white-1600.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white.svg" alt="radman-v2-d-header-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white.svg', 'radman-v2-d-header-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-v2-d-header-white.svg</h3>
+            <div class="path-text">radman-silver/final-v2/radman-v2-d-header-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-v2/radman-v2-d-header-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>4. Final-Selected (Curated Phase-1 Asset Pack)</h2>
+          <p>Standardized asset pack curated for WooCommerce headers, packaging, favicons, and minimal legal use.</p>
+        </div>
+        <span class="count-badge">22 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/apple-touch-icon-180.png" alt="apple-touch-icon-180.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/apple-touch-icon-180.png', 'apple-touch-icon-180.png')">
+          </div>
+          <div class="card-body">
+            <h3>apple-touch-icon-180.png</h3>
+            <div class="path-text">radman-silver/final-selected/apple-touch-icon-180.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/apple-touch-icon-180.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-16.png" alt="favicon-16.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-16.png', 'favicon-16.png')">
+          </div>
+          <div class="card-body">
+            <h3>favicon-16.png</h3>
+            <div class="path-text">radman-silver/final-selected/favicon-16.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-16.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-black.png" alt="favicon-32-on-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-black.png', 'favicon-32-on-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>favicon-32-on-black.png</h3>
+            <div class="path-text">radman-silver/final-selected/favicon-32-on-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-ivory.png" alt="favicon-32-on-ivory.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-ivory.png', 'favicon-32-on-ivory.png')">
+          </div>
+          <div class="card-body">
+            <h3>favicon-32-on-ivory.png</h3>
+            <div class="path-text">radman-silver/final-selected/favicon-32-on-ivory.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32-on-ivory.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32.png" alt="favicon-32.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32.png', 'favicon-32.png')">
+          </div>
+          <div class="card-body">
+            <h3>favicon-32.png</h3>
+            <div class="path-text">radman-silver/final-selected/favicon-32.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon-32.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <div class="file-icon-preview">ICO FILE</div>
+          </div>
+          <div class="card-body">
+            <h3>favicon.ico</h3>
+            <div class="path-text">radman-silver/final-selected/favicon.ico</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">ICO</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/favicon.ico" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-512.png" alt="logo-icon-512.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-512.png', 'logo-icon-512.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-icon-512.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-icon-512.png</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-512.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-black.svg" alt="logo-icon-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-black.svg', 'logo-icon-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-icon-black.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-icon-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-white.svg" alt="logo-icon-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-white.svg', 'logo-icon-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-icon-white.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-icon-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-no">RADMAN Text: NO (Monogram/Icon)</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-icon-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.png" alt="logo-packaging-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.png', 'logo-packaging-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-packaging-black.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-packaging-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.svg" alt="logo-packaging-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.svg', 'logo-packaging-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-packaging-black.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-packaging-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.png" alt="logo-packaging-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.png', 'logo-packaging-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-packaging-white.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-packaging-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.svg" alt="logo-packaging-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.svg', 'logo-packaging-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-packaging-white.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-packaging-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-packaging-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.png" alt="logo-primary-header-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.png', 'logo-primary-header-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-primary-header-black.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-primary-header-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.svg" alt="logo-primary-header-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.svg', 'logo-primary-header-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-primary-header-black.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-primary-header-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.png" alt="logo-primary-header-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.png', 'logo-primary-header-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-primary-header-white.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-primary-header-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.svg" alt="logo-primary-header-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.svg', 'logo-primary-header-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-primary-header-white.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-primary-header-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-primary-header-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.png" alt="logo-wordmark-minimal-black.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.png', 'logo-wordmark-minimal-black.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-wordmark-minimal-black.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-wordmark-minimal-black.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-light">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.svg" alt="logo-wordmark-minimal-black.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.svg', 'logo-wordmark-minimal-black.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-wordmark-minimal-black.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-wordmark-minimal-black.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-black.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.png" alt="logo-wordmark-minimal-white.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.png', 'logo-wordmark-minimal-white.png')">
+          </div>
+          <div class="card-body">
+            <h3>logo-wordmark-minimal-white.png</h3>
+            <div class="path-text">radman-silver/final-selected/logo-wordmark-minimal-white.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-checker">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.svg" alt="logo-wordmark-minimal-white.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.svg', 'logo-wordmark-minimal-white.svg')">
+          </div>
+          <div class="card-body">
+            <h3>logo-wordmark-minimal-white.svg</h3>
+            <div class="path-text">radman-silver/final-selected/logo-wordmark-minimal-white.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/logo-wordmark-minimal-white.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <div class="file-icon-preview">MD FILE</div>
+          </div>
+          <div class="card-body">
+            <h3>usage-guide.md</h3>
+            <div class="path-text">radman-silver/final-selected/usage-guide.md</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">MD</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/final-selected/usage-guide.md" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>5. Mockups (High-Resolution Product Photography & Packaging)</h2>
+          <p>8k AI-generated product photography showing luxury matte black gift boxes and Italian marble brand cards.</p>
+        </div>
+        <span class="count-badge">2 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/brand-card-light-mockup.png" alt="brand-card-light-mockup.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/brand-card-light-mockup.png', 'brand-card-light-mockup.png')">
+          </div>
+          <div class="card-body">
+            <h3>brand-card-light-mockup.png</h3>
+            <div class="path-text">radman-silver/mockups/brand-card-light-mockup.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/brand-card-light-mockup.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/packaging-dark-mockup.png" alt="packaging-dark-mockup.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/packaging-dark-mockup.png', 'packaging-dark-mockup.png')">
+          </div>
+          <div class="card-body">
+            <h3>packaging-dark-mockup.png</h3>
+            <div class="path-text">radman-silver/mockups/packaging-dark-mockup.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/mockups/packaging-dark-mockup.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="section-box">
+      <div class="section-header">
+        <div>
+          <h2>6. Other & Guidelines (Brand Books & Documentation)</h2>
+          <p>HTML review sheets, brand guidelines, and usage documentation.</p>
+        </div>
+        <span class="count-badge">3 Files</span>
+      </div>
+      <div class="card-grid">
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <div class="file-icon-preview">HTML FILE</div>
+          </div>
+          <div class="card-body">
+            <h3>brand-guidelines.html</h3>
+            <div class="path-text">radman-silver/guidelines/brand-guidelines.html</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">HTML</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/brand-guidelines.html" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.png" alt="radman-logo-v2-review-sheet.png" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.png', 'radman-logo-v2-review-sheet.png')">
+          </div>
+          <div class="card-body">
+            <h3>radman-logo-v2-review-sheet.png</h3>
+            <div class="path-text">radman-silver/guidelines/radman-logo-v2-review-sheet.png</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">PNG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.png" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-preview bg-dark">
+            <img src="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.svg" alt="radman-logo-v2-review-sheet.svg" onclick="openModal('https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.svg', 'radman-logo-v2-review-sheet.svg')">
+          </div>
+          <div class="card-body">
+            <h3>radman-logo-v2-review-sheet.svg</h3>
+            <div class="path-text">radman-silver/guidelines/radman-logo-v2-review-sheet.svg</div>
+            <div class="meta-row">
+              <span class="badge badge-yes">RADMAN Text: YES</span>
+              <span class="badge badge-ext">SVG</span>
+            </div>
+            <div class="btn-row">
+              <a href="https://raw.githubusercontent.com/maryamghabel3-debug/brand-assets/main/radman-silver/guidelines/radman-logo-v2-review-sheet.svg" target="_blank" class="btn-link">Open Raw File ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Full-Screen Lightbox Modal -->
+  <div id="imgModal" class="modal" onclick="closeModal()">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div class="modal-caption" id="modalCaption"></div>
+  </div>
+
+  <footer>
+    RADMAN SILVER 925 • COMPLETE VISUAL AUDIT &amp; VERSIONS ARCHIVE • HAUTE JOAILLERIE MAISON • TEHRAN / IRAN
+  </footer>
+
+  <script>
+    function openModal(url, title) {
+      document.getElementById('modalImg').src = url;
+      document.getElementById('modalCaption').innerText = title;
+      document.getElementById('imgModal').style.display = 'flex';
+    }
+    function closeModal() {
+      document.getElementById('imgModal').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
