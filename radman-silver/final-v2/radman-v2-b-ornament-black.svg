@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="100%" height="100%">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Montserrat:wght@600;700&amp;display=swap');
+    
+    .wordmark-text {
+      font-family: 'Cinzel', 'Didot', 'Bodoni MT', 'Cormorant Garamond', serif;
+      font-size: 120px;
+      font-weight: 700;
+      fill: #000000;
+      letter-spacing: 0.28em;
+      text-anchor: middle;
+    }
+    
+    .tagline-text {
+      font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      fill: #000000;
+      letter-spacing: 0.55em;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Direction B — Wordmark + Minimal Ornament -->
+  <g transform="translate(0, 0)">
+    <text x="800" y="195" class="wordmark-text" aria-label="RADMAN">
+      <tspan x="550">R</tspan>
+      <tspan x="650">A</tspan>
+      <tspan x="750">D</tspan>
+      <tspan x="850">M</tspan>
+      <tspan x="950">A</tspan>
+      <tspan x="1050">N</tspan>
+    </text>
+    
+    <!-- Minimalist Persian Shamsa Diamond Ornament -->
+    <g transform="translate(800, 285)" fill="#000000" stroke="#000000">
+      <path d="M -150,0 L -45,0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <circle cx="-150" cy="0" r="3" fill="#000000"/>
+      <circle cx="-95" cy="0" r="2" fill="#000000" opacity="0.6"/>
+      
+      <!-- Center 8-Pointed Star -->
+      <polygon points="0,-20 6,-7 20,0 6,7 0,20 -6,7 -20,0 -6,-7" stroke-width="1.5"/>
+      <polygon points="0,-14 10,-10 14,0 10,10 0,14 -10,10 -14,0 -10,-10" fill="none" stroke-width="2"/>
+      <circle cx="0" cy="0" r="3.5" fill="#000000"/>
+      
+      <path d="M 45,0 L 150,0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <circle cx="150" cy="0" r="3" fill="#000000"/>
+      <circle cx="95" cy="0" r="2" fill="#000000" opacity="0.6"/>
+    </g>
+    
+    <text x="800" y="380" class="tagline-text" aria-label="SILVER 925">
+      <tspan x="590">S</tspan>
+      <tspan x="630">I</tspan>
+      <tspan x="670">L</tspan>
+      <tspan x="710">V</tspan>
+      <tspan x="750">E</tspan>
+      <tspan x="790">R</tspan>
+      <tspan x="870">9</tspan>
+      <tspan x="910">2</tspan>
+      <tspan x="950">5</tspan>
+    </text>
+  </g>
+</svg>
