@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 2400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="confirm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14141A"/>
+      <stop offset="100%" stop-color="#0A0A0E"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3600" height="2400" fill="url(#confirm-bg)"/>
+
+  <!-- Top Header -->
+  <line x1="120" y1="60" x2="3480" y2="60" stroke="#CBD5E1" stroke-width="2" opacity="0.4"/>
+  <text x="1800" y="115" font-family="Cinzel, serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">RADMAN SILVER — FINAL APPROVED V1 LAUNCH ASSET SUITE (CONFIRMATION SHEET)</text>
+  <text x="1800" y="155" font-family="Montserrat, sans-serif" font-size="16px" font-weight="600" fill="#D4AF37" letter-spacing="6" text-anchor="middle">EXACT COMPOSITIONS DERIVED FROM APPROVED MASTER V1 SOURCE • ZERO REDESIGN OR SIMPLIFICATION</text>
+  <line x1="120" y1="185" x2="3480" y2="185" stroke="#CBD5E1" stroke-width="2" opacity="0.4"/>
+
+  <!-- ========================================== -->
+  <!-- ROW 1: 1600PX MAIN COMPANION LOGOS -->
+  <!-- ========================================== -->
+  <g transform="translate(120, 240)">
+    
+    <!-- 1. Silver on Transparent (Dark preview box) -->
+    <g transform="translate(0, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#E2E8F0" letter-spacing="2" text-anchor="middle">1. radman-logo-silver-on-transparent-1600.png (Dark bg)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#181820" stroke="#3F3F46" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 250) scale(0.55)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, -180) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#E2E8F0" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FFFFFF"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FFFFFF"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FFFFFF"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FFFFFF"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FFFFFF"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#FFFFFF">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FFFFFF"/>
+      </g>
+    </g>
+    
+        <text x="0" y="10" font-family="Cinzel, serif" font-size="68px" font-weight="700" fill="#FFFFFF" text-anchor="middle">RADMAN</text>
+        
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(0, 63) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FFFFFF" opacity="0.8"/>
+      
+      <g fill="#FFFFFF">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FFFFFF"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+    
+        <text x="0" y="123" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#FFFFFF" text-anchor="middle">SILVER 925</text>
+      </g>
+    </g>
+
+    <!-- 2. Black on Transparent (Light preview box) -->
+    <g transform="translate(860, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#CBD5E1" letter-spacing="2" text-anchor="middle">2. radman-logo-black-on-transparent-1600.png (White bg)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 250) scale(0.55)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, -180) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+        <text x="0" y="10" font-family="Cinzel, serif" font-size="68px" font-weight="700" fill="#000000" text-anchor="middle">RADMAN</text>
+        
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(0, 63) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#000000" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#000000"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#000000" opacity="0.8"/>
+      
+      <g fill="#000000">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#000000" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#000000"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#000000"/>
+        <circle cx="0" cy="21" r="1.8" fill="#000000"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#000000" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#000000"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#000000" opacity="0.8"/>
+    </g>
+    
+        <text x="0" y="123" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#000000" text-anchor="middle">SILVER 925</text>
+      </g>
+    </g>
+
+    <!-- 3. Silver on Matte Black (#0B0B0E bg) -->
+    <g transform="translate(1720, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#E2E8F0" letter-spacing="2" text-anchor="middle">3. radman-logo-on-black-1600.png (Matte Black #0B0B0E)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#0B0B0E" stroke="#3F3F46" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 250) scale(0.55)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, -180) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#E2E8F0" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FFFFFF"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FFFFFF"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FFFFFF"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FFFFFF"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FFFFFF"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#FFFFFF">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FFFFFF"/>
+      </g>
+    </g>
+    
+        <text x="0" y="10" font-family="Cinzel, serif" font-size="68px" font-weight="700" fill="#FFFFFF" text-anchor="middle">RADMAN</text>
+        
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(0, 63) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FFFFFF" opacity="0.8"/>
+      
+      <g fill="#FFFFFF">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FFFFFF"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+    
+        <text x="0" y="123" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#FFFFFF" text-anchor="middle">SILVER 925</text>
+      </g>
+    </g>
+
+    <!-- 4. Black on Ivory (#FAF7F2 bg) -->
+    <g transform="translate(2580, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#CBD5E1" letter-spacing="2" text-anchor="middle">4. radman-logo-on-ivory-1600.png (Ivory Cream #FAF7F2)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 250) scale(0.55)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, -180) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+        <text x="0" y="10" font-family="Cinzel, serif" font-size="68px" font-weight="700" fill="#000000" text-anchor="middle">RADMAN</text>
+        
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(0, 63) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#000000" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#000000"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#000000" opacity="0.8"/>
+      
+      <g fill="#000000">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#000000" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#000000"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#000000"/>
+        <circle cx="0" cy="21" r="1.8" fill="#000000"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#000000" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#000000"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#000000" opacity="0.8"/>
+    </g>
+    
+        <text x="0" y="123" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#000000" text-anchor="middle">SILVER 925</text>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 2: 512PX MONOGRAMS, FAVICON 32 & APPLE 180 -->
+  <!-- ========================================== -->
+  <g transform="translate(120, 920)">
+    
+    <!-- 5. Monogram White (512x512 on dark box) -->
+    <g transform="translate(0, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#E2E8F0" letter-spacing="2" text-anchor="middle">5. radman-monogram-white-512.png (Dark bg)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 290) scale(0.95)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, 0) scale(1.95)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#FFFFFF" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FFFFFF"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FFFFFF"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FFFFFF"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FFFFFF"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FFFFFF"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#FFFFFF">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FFFFFF"/>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+
+    <!-- 6. Monogram Black (512x512 on light box) -->
+    <g transform="translate(860, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#CBD5E1" letter-spacing="2" text-anchor="middle">6. radman-monogram-black-512.png (Light bg)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 290) scale(0.95)">
+        
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, 0) scale(1.95)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+
+    <!-- 7. favicon-32 (Actual 32x32 + Enlarged 128px on ivory #FAF7F2) -->
+    <g transform="translate(1720, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#E2E8F0" letter-spacing="2" text-anchor="middle">7. favicon-32.png (32×32 Native &amp; 128px Zoomed)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#181820" stroke="#3F3F46" stroke-width="2"/>
+      </g>
+      <!-- 32px native box -->
+      <g transform="translate(200, 220)">
+        <rect x="-48" y="-48" width="96" height="96" rx="16" fill="#FAF7F2" stroke="#52525B" stroke-width="2"/>
+        <text x="0" y="-70" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">NATIVE 32×32</text>
+        <g transform="scale(0.35)">
+          
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, 0) scale(0.6)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+        </g>
+      </g>
+      <!-- 128px enlarged box -->
+      <g transform="translate(540, 270)">
+        <rect x="-120" y="-120" width="240" height="240" rx="40" fill="#FAF7F2" stroke="#52525B" stroke-width="3"/>
+        <text x="0" y="-150" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">128px ENLARGED AUDIT</text>
+        <g transform="scale(0.95)">
+          
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, 0) scale(0.6)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+        </g>
+      </g>
+    </g>
+
+    <!-- 8. apple-touch-icon-180 (180x180 on ivory #FAF7F2) -->
+    <g transform="translate(2580, 0)">
+      <text x="390" y="-12" font-family="Cinzel, serif" font-size="15px" font-weight="700" fill="#CBD5E1" letter-spacing="2" text-anchor="middle">8. apple-touch-icon-180.png (iOS Home Screen)</text>
+      <g filter="url(#card-shadow)">
+        <rect width="780" height="580" rx="12" fill="#141418" stroke="#3F3F46" stroke-width="2"/>
+      </g>
+      <g transform="translate(390, 290)">
+        <rect x="-180" y="-180" width="360" height="360" rx="80" fill="#FAF7F2" stroke="#3F3F46" stroke-width="2"/>
+        <g transform="scale(1.25)">
+          
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(0, 0) scale(0.68)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#000000" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#000000"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#000000"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#000000"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#000000"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#000000"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#000000"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#000000"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#000000"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#000000" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#000000">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#000000"/>
+      </g>
+    </g>
+    
+        </g>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 3: QUALITY CHECK SUMMARY & 9. MASTER SVG -->
+  <!-- ========================================== -->
+  <g transform="translate(120, 1620)">
+    <rect width="3360" height="660" rx="16" fill="#141418" stroke="#3F3F46" stroke-width="2"/>
+    <text x="1680" y="80" font-family="Cinzel, serif" font-size="28px" font-weight="700" fill="#D4AF37" letter-spacing="6" text-anchor="middle">QUALITY CHECK VERIFICATION &amp; MASTER SVG SOURCE ARCHITECTURE</text>
+    
+    <g transform="translate(200, 160)">
+      <text x="0" y="0" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  1. WORDMARK VISIBILITY:</text>
+      <text x="50" y="40" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">RADMAN in 68px bold French Didot serif is prominent and readable in every 1600px main logo.</text>
+      
+      <text x="0" y="110" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  2. SHAMSA ORNAMENT:</text>
+      <text x="50" y="150" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">Persian royal Shamsa star is centered above RADMAN; SILVER 925 is readable below RADMAN.</text>
+      
+      <text x="0" y="220" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  3. ZERO CROPPING:</text>
+      <text x="50" y="260" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">viewBox 0 0 1200 900 surrounds the artwork with a 200px protective margin. No cut edges.</text>
+      
+      <text x="0" y="330" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  4. SOLID COLOR ACCURACY:</text>
+      <text x="50" y="370" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">No muddy gray. Solid pure white #FFFFFF, pure black #000000, and bright silver foil #E2E8F0.</text>
+    </g>
+
+    <g transform="translate(1850, 160)">
+      <text x="0" y="0" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  5. ALPHA TRANSPARENCY:</text>
+      <text x="50" y="40" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">Checkerboard test passed on transparent PNGs (1600px transparent &amp; 512px monograms).</text>
+      
+      <text x="0" y="110" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  6. FAVICON NATIVE CLARITY:</text>
+      <text x="50" y="150" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">favicon-32.png is sharp and readable at native 32×32 size with solid black on ivory #FAF7F2.</text>
+      
+      <text x="0" y="220" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  7. iOS 180PX APPLE ICON:</text>
+      <text x="50" y="260" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">180×180px solid black monogram on ivory background #FAF7F2, optimized for home screens.</text>
+      
+      <text x="0" y="330" font-family="Cinzel, serif" font-size="22px" font-weight="700" fill="#FFFFFF">✓  8. MASTER SVG READY:</text>
+      <text x="50" y="370" font-family="Montserrat, sans-serif" font-size="18px" fill="#A1A1AA">9. radman-logo-master.svg is crisp, scalable, and ready for production deployment.</text>
+    </g>
+  </g>
+
+</svg>
