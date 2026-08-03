@@ -8,16 +8,16 @@ This directory contains the production-ready **RIDELIN Logo Suite** engineered f
 
 | Asset Name | Composition Type | Best Deployment & Application Targets |
 | :--- | :--- | :--- |
-| **`ridelin-logo-header-*.{svg,png}`** | **Pure Wordmark + Line** (No circle, no subtext) | **Primary Website Header:** WooCommerce desktop navigation bar, mobile sticky header, email newsletter header. |
-| **`ridelin-logo-packaging-*.{svg,png}`** | **Wordmark + Line + Tagline** (`RIDE YOUR WAY`) | **Packaging & Print:** Gift boxes, bags, certificate of authenticity cards, homepage promotional banners. |
+| **`ridelin-header-*.{svg,png}`** | **Pure Wordmark + Line** (No circle, no subtext) | **Primary Website Header:** WooCommerce desktop navigation bar, mobile sticky header, email newsletter header. |
+| **`ridelin-packaging-*.{svg,png}`** | **Wordmark + Line + Tagline** (`RIDE YOUR WAY`) | **Packaging & Print:** Gift boxes, bags, certificate of authenticity cards, homepage promotional banners. |
 | **`ridelin-monogram-*.{svg,png}`** | **Standalone Single Chic 'R' Monogram** | **Social & Avatars:** Instagram profile picture (`@ridelin.ir`), Telegram/WhatsApp avatar, helmet side-stickers, glove wrist patches. |
 | **`favicon-32.png`** & **`apple-touch-icon-180.png`** | **Native Favicons** | **Browser & iOS:** Standard browser tab icon (`32×32px` on ivory) and Apple iOS home screen bookmark (`180×180px`). |
 
 ---
 
 ## 2. When to Use Black vs. White/Platinum Backgrounds
-- **Transparent Header (`ridelin-logo-header-transparent-1600.png`):** Use on dark luxury WooCommerce navigation bars (`#0D0D10` / `#14141A`).
-- **Black Transparent Header (`ridelin-logo-header-black-1600.png`):** Use on light navigation bars (`#FFFFFF` / `#FAF7F2`) or print documents.
+- **Transparent Header (`ridelin-header-transparent-1600.png`):** Use on dark luxury WooCommerce navigation bars (`#0D0D10` / `#14141A`).
+- **Black Transparent Header (`ridelin-header-black-transparent-1600.png`):** Use on light navigation bars (`#FFFFFF` / `#FAF7F2`) or print documents.
 - **On Matte Black (`*-on-black-1600.png`):** Use on dark social banners or dark packaging boxes.
 - **On Ivory (`*-on-ivory-1600.png`):** Use on light certificate cards or ivory packaging boxes.
 
