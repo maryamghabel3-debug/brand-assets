@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="100%">
+  
+  <defs>
+    <!-- Matte Black Background Gradient -->
+    <radialGradient id="bg-matte-black" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#18181E"/>
+      <stop offset="50%" stop-color="#101014"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </radialGradient>
+    
+    <!-- Deep Charcoal Background Gradient -->
+    <radialGradient id="bg-charcoal" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#24242A"/>
+      <stop offset="50%" stop-color="#1A1A1F"/>
+      <stop offset="100%" stop-color="#101014"/>
+    </radialGradient>
+
+    <!-- Rose Gold Metallic Gradient -->
+    <linearGradient id="rosegold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="20%" stop-color="#E8B4A8"/>
+      <stop offset="45%" stop-color="#C88A7D"/>
+      <stop offset="55%" stop-color="#F5D0C9"/>
+      <stop offset="75%" stop-color="#B76E79"/>
+      <stop offset="100%" stop-color="#E0A899"/>
+    </linearGradient>
+
+    <!-- Bright Rose Gold -->
+    <linearGradient id="rosegold-bright" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="50%" stop-color="#E8B4A8"/>
+      <stop offset="100%" stop-color="#C88A7D"/>
+    </linearGradient>
+
+    <!-- Coral Red Gradient -->
+    <linearGradient id="coral-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF757A"/>
+      <stop offset="50%" stop-color="#FF474E"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+
+    <!-- Silver Gradient -->
+    <linearGradient id="silver-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#D6DEE8"/>
+      <stop offset="50%" stop-color="#919CA8"/>
+      <stop offset="75%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#A8B4C2"/>
+    </linearGradient>
+
+    <filter id="gear-emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#FFFFFF" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  
+
+  <rect x="35" y="35" width="1130" height="430" rx="8" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-opacity="0.35"/>
+  <rect x="44" y="44" width="1112" height="412" rx="6" fill="none" stroke="url(#rosegold-gradient)" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <g transform="translate(180, 160)">
+    
+    <!-- AERODYNAMIC HELMET VISOR &amp; ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(100, 85) scale(1.35)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#rosegold-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+
+    <g transform="translate(260, 105)" filter="url(#gear-emboss)">
+      <text x="0" y="0" font-family="Montserrat, Rajdhani, Orbitron, Liberation Sans, sans-serif" font-size="82px" font-weight="800" font-style="italic" fill="#FFFFFF" letter-spacing="8">RIDELIN</text>
+      
+      <g transform="translate(5, 25)">
+        <path d="M 0,0 L 460,0 L 485,-6 L 15,-6 Z" fill="url(#rosegold-gradient)" opacity="0.95"/>
+        <polygon points="495,-6 535,-6 525,0 485,0" fill="url(#rosegold-bright)"/>
+        <polygon points="545,-6 565,-6 555,0 535,0" fill="url(#rosegold-bright)" opacity="0.6"/>
+      </g>
+      
+      <text x="5" y="58" font-family="Montserrat, Liberation Sans, sans-serif" font-size="16px" font-weight="700" fill="url(#rosegold-bright)" letter-spacing="6">RIDE YOUR WAY</text>
+      <text x="5" y="82" font-family="Montserrat, Liberation Sans, sans-serif" font-size="11px" font-weight="600" fill="#E8B4A8" letter-spacing="4" opacity="0.85">WOMEN-FIRST UNISEX PERFORMANCE MOTO GEAR • IRAN</text>
+    </g>
+  </g>
+
+  <text x="1140" y="75" font-family="Montserrat, sans-serif" font-size="11px" font-weight="700" fill="#E8B4A8" style="text-anchor: end; opacity: 0.6;">TRANSPARENT HEADER LOCKUP</text>
+</svg>

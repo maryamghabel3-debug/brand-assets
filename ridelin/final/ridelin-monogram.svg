@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  
+  <defs>
+    <!-- Matte Black Background Gradient -->
+    <radialGradient id="bg-matte-black" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#18181E"/>
+      <stop offset="50%" stop-color="#101014"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </radialGradient>
+    
+    <!-- Deep Charcoal Background Gradient -->
+    <radialGradient id="bg-charcoal" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#24242A"/>
+      <stop offset="50%" stop-color="#1A1A1F"/>
+      <stop offset="100%" stop-color="#101014"/>
+    </radialGradient>
+
+    <!-- Rose Gold Metallic Gradient -->
+    <linearGradient id="rosegold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="20%" stop-color="#E8B4A8"/>
+      <stop offset="45%" stop-color="#C88A7D"/>
+      <stop offset="55%" stop-color="#F5D0C9"/>
+      <stop offset="75%" stop-color="#B76E79"/>
+      <stop offset="100%" stop-color="#E0A899"/>
+    </linearGradient>
+
+    <!-- Bright Rose Gold -->
+    <linearGradient id="rosegold-bright" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="50%" stop-color="#E8B4A8"/>
+      <stop offset="100%" stop-color="#C88A7D"/>
+    </linearGradient>
+
+    <!-- Coral Red Gradient -->
+    <linearGradient id="coral-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF757A"/>
+      <stop offset="50%" stop-color="#FF474E"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+
+    <!-- Silver Gradient -->
+    <linearGradient id="silver-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#D6DEE8"/>
+      <stop offset="50%" stop-color="#919CA8"/>
+      <stop offset="75%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#A8B4C2"/>
+    </linearGradient>
+
+    <filter id="gear-emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#FFFFFF" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="256" fill="url(#bg-matte-black)"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.75"/>
+  
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(256, 256) scale(1.9)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#rosegold-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+</svg>

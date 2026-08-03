@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1600" width="100%" height="100%">
+  
+  <defs>
+    <!-- Matte Black Background Gradient -->
+    <radialGradient id="bg-matte-black" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#18181E"/>
+      <stop offset="50%" stop-color="#101014"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </radialGradient>
+    
+    <!-- Deep Charcoal Background Gradient -->
+    <radialGradient id="bg-charcoal" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#24242A"/>
+      <stop offset="50%" stop-color="#1A1A1F"/>
+      <stop offset="100%" stop-color="#101014"/>
+    </radialGradient>
+
+    <!-- Rose Gold Metallic Gradient -->
+    <linearGradient id="rosegold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="20%" stop-color="#E8B4A8"/>
+      <stop offset="45%" stop-color="#C88A7D"/>
+      <stop offset="55%" stop-color="#F5D0C9"/>
+      <stop offset="75%" stop-color="#B76E79"/>
+      <stop offset="100%" stop-color="#E0A899"/>
+    </linearGradient>
+
+    <!-- Bright Rose Gold -->
+    <linearGradient id="rosegold-bright" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFF0EC"/>
+      <stop offset="50%" stop-color="#E8B4A8"/>
+      <stop offset="100%" stop-color="#C88A7D"/>
+    </linearGradient>
+
+    <!-- Coral Red Gradient -->
+    <linearGradient id="coral-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF757A"/>
+      <stop offset="50%" stop-color="#FF474E"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+
+    <!-- Silver Gradient -->
+    <linearGradient id="silver-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#D6DEE8"/>
+      <stop offset="50%" stop-color="#919CA8"/>
+      <stop offset="75%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#A8B4C2"/>
+    </linearGradient>
+
+    <filter id="gear-emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#FFFFFF" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <defs>
+    <linearGradient id="ridelin-sheet-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141418"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Sheet Background -->
+  <rect width="2400" height="1600" fill="url(#ridelin-sheet-bg)"/>
+
+  <!-- Top Header -->
+  <line x1="80" y1="50" x2="2320" y2="50" stroke="url(#rosegold-gradient)" stroke-width="2" opacity="0.4"/>
+  <text x="1200" y="95" font-family="Montserrat, sans-serif" font-size="34px" font-weight="800" font-style="italic" fill="url(#rosegold-gradient)" letter-spacing="8" text-anchor="middle">RIDELIN — WOMEN-FIRST UNISEX MOTORCYCLE ACCESSORIES IDENTITY SUITE</text>
+  <text x="1200" y="130" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#E2E8F0" letter-spacing="6" text-anchor="middle">AERODYNAMIC HELMET VISOR &amp; ROAD-LINE SPEED WING 'R' EMBLEM • TEHRAN / IRAN</text>
+  <line x1="80" y1="160" x2="2320" y2="160" stroke="url(#rosegold-gradient)" stroke-width="2" opacity="0.4"/>
+
+  <!-- ========================================== -->
+  <!-- CARD 1: ROSE GOLD ON MATTE BLACK -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 200)">
+    <text x="500" y="-12" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#E8B4A8" letter-spacing="2" text-anchor="middle">1. OPTION 1 — ROSE GOLD FOIL ON MATTE BLACK</text>
+    <g filter="url(#card-shadow)">
+      <rect width="1000" height="420" rx="12" fill="url(#bg-matte-black)" stroke="url(#rosegold-gradient)" stroke-width="2"/>
+    </g>
+    <g transform="translate(150, 140)">
+      
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(80, 70) scale(1.15)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#rosegold-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+      <g transform="translate(210, 85)" filter="url(#gear-emboss)">
+        <text x="0" y="0" font-family="Montserrat, sans-serif" font-size="68px" font-weight="800" font-style="italic" fill="url(#rosegold-gradient)">RIDELIN</text>
+        <g transform="translate(5, 20)">
+          <path d="M 0,0 L 380,0 L 400,-5 L 12,-5 Z" fill="url(#rosegold-gradient)" opacity="0.95"/>
+          <polygon points="410,-5 440,-5 432,0 400,0" fill="url(#rosegold-bright)"/>
+        </g>
+        <text x="5" y="48" font-family="Montserrat, sans-serif" font-size="13px" font-weight="700" fill="url(#rosegold-bright)" letter-spacing="4">RIDE YOUR WAY</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 2: CORAL RED ON CHARCOAL -->
+  <!-- ========================================== -->
+  <g transform="translate(1300, 200)">
+    <text x="500" y="-12" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#FF5A5F" letter-spacing="2" text-anchor="middle">2. OPTION 2 — SPORT CORAL RED ON DEEP CHARCOAL</text>
+    <g filter="url(#card-shadow)">
+      <rect width="1000" height="420" rx="12" fill="url(#bg-charcoal)" stroke="url(#coral-gradient)" stroke-width="2"/>
+    </g>
+    <g transform="translate(150, 140)">
+      
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(80, 70) scale(1.15)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#coral-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#coral-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#coral-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#coral-gradient)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#coral-gradient)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#coral-gradient)"/>
+      </g>
+    </g>
+    
+      <g transform="translate(210, 85)" filter="url(#gear-emboss)">
+        <text x="0" y="0" font-family="Montserrat, sans-serif" font-size="68px" font-weight="800" font-style="italic" fill="#FFFFFF">RIDELIN</text>
+        <g transform="translate(5, 20)">
+          <path d="M 0,0 L 380,0 L 400,-5 L 12,-5 Z" fill="url(#coral-gradient)" opacity="0.95"/>
+          <polygon points="410,-5 440,-5 432,0 400,0" fill="url(#coral-gradient)"/>
+        </g>
+        <text x="5" y="48" font-family="Montserrat, sans-serif" font-size="13px" font-weight="700" fill="url(#coral-gradient)" letter-spacing="4">RIDE YOUR WAY</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 3: SILVER ON PURE BLACK -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 700)">
+    <text x="500" y="-12" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#E2E8F0" letter-spacing="2" text-anchor="middle">3. OPTION 3 — METALLIC SILVER ON PURE BLACK</text>
+    <g filter="url(#card-shadow)">
+      <rect width="1000" height="420" rx="12" fill="#09090B" stroke="url(#silver-gradient)" stroke-width="2"/>
+    </g>
+    <g transform="translate(150, 140)">
+      
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(80, 70) scale(1.15)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#silver-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#silver-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#silver-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+      <g transform="translate(210, 85)">
+        <text x="0" y="0" font-family="Montserrat, sans-serif" font-size="68px" font-weight="800" font-style="italic" fill="url(#silver-gradient)">RIDELIN</text>
+        <g transform="translate(5, 20)">
+          <path d="M 0,0 L 380,0 L 400,-5 L 12,-5 Z" fill="url(#silver-gradient)" opacity="0.95"/>
+          <polygon points="410,-5 440,-5 432,0 400,0" fill="url(#rosegold-bright)"/>
+        </g>
+        <text x="5" y="48" font-family="Montserrat, sans-serif" font-size="13px" font-weight="700" fill="url(#silver-gradient)" letter-spacing="4">RIDE YOUR WAY</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 4: MONOGRAM 512PX & FAVICON AUDIT -->
+  <!-- ========================================== -->
+  <g transform="translate(1300, 700)">
+    <text x="500" y="-12" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#E8B4A8" letter-spacing="2" text-anchor="middle">4. AERODYNAMIC WING 'R' MONOGRAM (512px, 180px, 32px)</text>
+    <g filter="url(#card-shadow)">
+      <rect width="1000" height="420" rx="12" fill="url(#bg-matte-black)" stroke="url(#rosegold-gradient)" stroke-width="2"/>
+    </g>
+    <g transform="translate(240, 210) scale(0.68)">
+      
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(0, 0) scale(1.9)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#rosegold-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+    </g>
+    <g transform="translate(680, 210) scale(0.38)">
+      <circle cx="0" cy="0" r="140" fill="#101014" stroke="url(#rosegold-gradient)" stroke-width="4"/>
+      
+    <!-- AERODYNAMIC HELMET VISOR & ROAD-LINE SPEED WING EMBLEM ('R' CREST) -->
+    <g transform="translate(0, 0) scale(1.9)" filter="url(#gear-emboss)">
+      <g transform="skewX(-14)">
+        <circle cx="0" cy="0" r="54" fill="none" stroke="url(#rosegold-gradient)" stroke-width="3" opacity="0.95"/>
+        <circle cx="0" cy="0" r="46" fill="none" stroke="url(#rosegold-gradient)" stroke-width="1" stroke-dasharray="8 6" opacity="0.45"/>
+        
+        <g fill="url(#rosegold-gradient)">
+          <path d="M -28,-22 C -28,-36 -12,-44 8,-42 C 24,-40 38,-28 42,-10 C 38,-12 25,-16 10,-15 C -4,-14 -16,-6 -20,6 L -28,-22 Z"/>
+          <path d="M -22,12 C -12,2 8,-2 26,4 C 36,7 44,14 48,22 C 34,20 20,24 10,34 C 4,40 -8,42 -24,40 L -22,12 Z"/>
+          <polygon points="-8,8 24,8 32,0 0,0" fill="url(#rosegold-bright)" opacity="0.95"/>
+          <polygon points="6,22 34,22 40,16 12,16" fill="url(#rosegold-bright)" opacity="0.8"/>
+        </g>
+        <circle cx="-35" cy="0" r="3.5" fill="url(#rosegold-bright)"/>
+      </g>
+    </g>
+    
+    </g>
+    <text x="680" y="360" font-family="Montserrat, sans-serif" font-size="13px" fill="#A8B4C2" text-anchor="middle">180px iOS &amp; 32px Favicon</text>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="1200" y="1530" font-family="Montserrat, sans-serif" font-size="14px" fill="#71717A" letter-spacing="6" text-anchor="middle">RIDELIN MOTORCYCLE ACCESSORIES • WOMEN-FIRST UNISEX PERFORMANCE MOTO GEAR • TEHRAN / IRAN • MMXVI</text>
+</svg>
