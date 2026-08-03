@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" rx="256" fill="#0D0D10"/>
+  
+    <g transform="translate(256, 256) scale(1.0)">
+      <!-- Luxurious Chic Ring Frame -->
+      <circle cx="0" cy="0" r="160" fill="none" stroke="#D9DCE3" stroke-width="4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="145" fill="none" stroke="#503A70" stroke-width="2.5" stroke-dasharray="12 8" opacity="0.9"/>
+      <!-- Top Diamond Speed Crest -->
+      <polygon points="0,-175 6,-162 0,-155 -6,-162" fill="#8664B0"/>
+      
+      <!-- Perfectly Balanced, Elegant Chic 'R' -->
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <!-- R Vertical Stem (Sleek & sturdy) -->
+        <line x1="-45" y1="-85" x2="-45" y2="85" stroke="#D9DCE3" stroke-width="22"/>
+        <!-- R Upper Bowl (High-fashion curve) -->
+        <path d="M -45,-85 L 25,-85 C 65,-85 85,-58 85,-25 C 85,8 65,30 25,30 L -45,30" fill="none" stroke="#D9DCE3" stroke-width="22"/>
+        <!-- Graceful Sweeping Diagonal Leg (Balanced Road Wing) -->
+        <path d="M -5,30 C 20,30 45,52 75,85" fill="none" stroke="#D9DCE3" stroke-width="22"/>
+        <path d="M -5,30 C 20,30 45,52 75,85" fill="none" stroke="#8664B0" stroke-width="8" opacity="0.95"/>
+      </g>
+      <!-- Kinetic Purple Horizon Wing Accent integrated smoothly in bowl -->
+      <path d="M -15,-25 C 10,-25 35,-25 55,-40" fill="none" stroke="#503A70" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-85" cy="-85" r="8" fill="#503A70"/>
+    </g>
+    
+</svg>
