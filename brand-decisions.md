@@ -19,15 +19,13 @@
 - Logo: **APPROVED AND CLOSED (Phase 1)**  
 - Date of approval: 2026-08-03  
 - Approved Final Files (`brand-assets/ridelin/APPROVED/`):  
-  - Primary Option 1 (Rose Gold on Matte Black): `ridelin-logo-rosegold-1600.png`, `ridelin-logo-rosegold.svg`  
-  - Sport Option 2 (Coral Red on Charcoal): `ridelin-logo-coral-1600.png`, `ridelin-logo-coral.svg`  
-  - Stealth Option 3 (Silver on Pure Black): `ridelin-logo-silver-1600.png`, `ridelin-logo-silver.svg`  
-  - WooCommerce Transparent Header: `ridelin-logo-transparent-1600.png`, `ridelin-logo-transparent.svg`  
-  - Helmet Decal & Social Monogram: `ridelin-monogram-512.png`, `ridelin-monogram.svg`  
-  - Browser Tab Favicon: `favicon-32.png`, `favicon-32.svg`  
-  - Master Review Sheet: `ridelin-logo-master.png`, `ridelin-logo-master.svg`  
-  - Documentation: `usage-guide.md`    
+  - Website Header (Pure Wordmark + Line, zero circle, zero subtext): `ridelin-logo-header-transparent-1600.png`, `ridelin-logo-header-black-1600.png`, `ridelin-logo-header-on-black-1600.png`, `ridelin-logo-header-on-ivory-1600.png`, and SVGs  
+  - Packaging & Print (Wordmark + Line + single tagline 'RIDE YOUR WAY'): `ridelin-logo-packaging-on-black-1600.png`, `ridelin-logo-packaging-on-ivory-1600.png`, and SVGs  
+  - Primary Icon / Social Avatar (Single Chic 'R' Monogram): `ridelin-monogram-white-512.png`, `ridelin-monogram-black-512.png`, `ridelin-monogram-white.svg`, `ridelin-monogram-black.svg`  
+  - Favicons & iOS App Icons: `favicon-32.png`, `favicon-32.svg`, `apple-touch-icon-180.png`, `apple-touch-icon-180.svg`  
+  - Master Confirmation Sheet: `ridelin-APPROVED-confirmation.png`, `ridelin-APPROVED-confirmation.svg`  
+  - Documentation: `usage-guide.md`  
   
 ## Status  
 - Priority: Launch websites fast, acquire customers  
-- Logos: RADMAN SILVER Phase 1 Approved & Closed; ready for WooCommerce deployment  
+- Logos: RADMAN SILVER & RIDELIN Phase 1 Approved & Closed; ready for WooCommerce deployment  

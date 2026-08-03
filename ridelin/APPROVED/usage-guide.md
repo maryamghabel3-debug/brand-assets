@@ -1,21 +1,31 @@
-# RIDELIN — Motorcycle Accessories Brand Identity Usage Guide
+# RIDELIN — Motorcycle Accessories Brand Identity Usage Guide (Approved Phase 1)
 
-This directory contains the production-ready **RIDELIN Logo Suite** engineered for women-first unisex motorcycle riders in Iran (Domain: `ridelin.ir`).
-
----
-
-## 1. Selected Colorway Map & Application Targets
-
-| Option | Base Palette | Foil / Accent Color | Best Application & Deployment Targets |
-| :--- | :--- | :--- | :--- |
-| **Option 1 (Rose Gold)** | Matte Black (`#09090C`) | Shimmering Rose Gold Foil (`#E8B4A8` → `#C88A7D`) | **Primary Brand Identity:** Women-first luxury gear, helmet foil decals, primary website header. |
-| **Option 2 (Coral Red)** | Deep Charcoal (`#1A1A1F`) | Sporty Coral Red (`#FF5A5F` / `#E63946`) | **Track & Sport Velocity:** Performance riding gloves, textile jackets, race livery, promotional banners. |
-| **Option 3 (Silver)** | Pure Black (`#09090B`) | Soft Metallic Silver (`#D6DEE8` → `#A8B4C2`) | **Minimalist Stealth:** Carbon-fiber gear base, woven sleeve patches, monochrome technical documentation. |
-| **Transparent Header** | Alpha (`#00000000`) | Shimmering Rose Gold & White | **WooCommerce Header:** Designed for dark/luxury navigation bars on `ridelin.ir`. |
+This directory contains the production-ready **RIDELIN Logo Suite** engineered for women-first unisex motorcycle riders in Iran (Domain: `ridelin.ir`). Every file adheres strictly to the locked palette: Matte Black (`#0D0D10`), Deep Royal Purple (`#503A70`), Platinum (`#D9DCE3`), and Ivory (`#FAF7F2`).
 
 ---
 
-## 2. Emblem Architecture & Symbolism
-- **Aerodynamic 'R' Wing Crest:** A forward-tilted hexagonal shield framing a sleek helmet visor silhouette that simultaneously forms a forward-slanted capital `"R"` and kinetic highway speed lines.
-- **Wordmark (`RIDELIN`):** Bold, aggressive geometric sans-serif with a `skewX(-14°)` motorsport forward tilt.
-- **Tagline (`RIDE YOUR WAY`):** Wide-tracked capitals positioned below the integrated horizon speed line.
+## 1. Selected Usage Map: Which Logo Goes Where?
+
+| Asset Name | Composition Type | Best Deployment & Application Targets |
+| :--- | :--- | :--- |
+| **`ridelin-logo-header-*.{svg,png}`** | **Pure Wordmark + Line** (No circle, no subtext) | **Primary Website Header:** WooCommerce desktop navigation bar, mobile sticky header, email newsletter header. |
+| **`ridelin-logo-packaging-*.{svg,png}`** | **Wordmark + Line + Tagline** (`RIDE YOUR WAY`) | **Packaging & Print:** Gift boxes, bags, certificate of authenticity cards, homepage promotional banners. |
+| **`ridelin-monogram-*.{svg,png}`** | **Standalone Single Chic 'R' Monogram** | **Social & Avatars:** Instagram profile picture (`@ridelin.ir`), Telegram/WhatsApp avatar, helmet side-stickers, glove wrist patches. |
+| **`favicon-32.png`** & **`apple-touch-icon-180.png`** | **Native Favicons** | **Browser & iOS:** Standard browser tab icon (`32×32px` on ivory) and Apple iOS home screen bookmark (`180×180px`). |
+
+---
+
+## 2. When to Use Black vs. White/Platinum Backgrounds
+- **Transparent Header (`ridelin-logo-header-transparent-1600.png`):** Use on dark luxury WooCommerce navigation bars (`#0D0D10` / `#14141A`).
+- **Black Transparent Header (`ridelin-logo-header-black-1600.png`):** Use on light navigation bars (`#FFFFFF` / `#FAF7F2`) or print documents.
+- **On Matte Black (`*-on-black-1600.png`):** Use on dark social banners or dark packaging boxes.
+- **On Ivory (`*-on-ivory-1600.png`):** Use on light certificate cards or ivory packaging boxes.
+
+---
+
+## 3. Favicon & Browser Tab Deployment
+Include in your HTML `<head>` tag:
+```html
+<link rel="icon" type="image/png" sizes="32x32" href="/brand-assets/ridelin/APPROVED/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/brand-assets/ridelin/APPROVED/apple-touch-icon-180.png">
+```
