@@ -15,8 +15,8 @@
 
   <!-- Top Header -->
   <line x1="120" y1="60" x2="3480" y2="60" stroke="#503A70" stroke-width="3" opacity="0.8"/>
-  <text x="1800" y="115" font-family="Montserrat, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">RIDELIN — FINAL APPROVED PHASE-1 LAUNCH ASSET SUITE (THE LATEST APPROVED DESIGN)</text>
-  <text x="1800" y="155" font-family="Montserrat, sans-serif" font-size="16px" font-weight="600" fill="#8664B0" letter-spacing="6" text-anchor="middle">LOCKED PALETTE • ZERO CIRCLE IN WORDMARK • NO OVERLAPPING TEXT • SINGLE 'R' MONOGRAM</text>
+  <text x="1800" y="115" font-family="Montserrat, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">RIDELIN — FINAL APPROVED PHASE-1 LAUNCH ASSET SUITE (CONFIRMATION SHEET)</text>
+  <text x="1800" y="155" font-family="Montserrat, sans-serif" font-size="16px" font-weight="600" fill="#8664B0" letter-spacing="6" text-anchor="middle">100% PERFECTLY CENTERED • ZERO CIRCLE IN WORDMARK • NO OVERLAPPING TEXT • SINGLE 'R' MONOGRAM</text>
   <line x1="120" y1="185" x2="3480" y2="185" stroke="#503A70" stroke-width="3" opacity="0.8"/>
 
   <!-- ========================================== -->
@@ -30,17 +30,18 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#D9DCE3" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <!-- Perfectly centered wordmark + line with 0,0 center -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#D9DCE3" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#8664B0" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#D9DCE3"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
     </g>
     
@@ -54,17 +55,18 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#000000" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <!-- Perfectly centered wordmark + line with 0,0 center -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#000000" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#000000"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#000000" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#503A70" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#000000"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#000000" opacity="0.65"/>
       </g>
     </g>
     
@@ -78,17 +80,18 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#503A70" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#D9DCE3" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <!-- Perfectly centered wordmark + line with 0,0 center -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#D9DCE3" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#8664B0" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#D9DCE3"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
     </g>
     
@@ -102,17 +105,18 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#0D0D10" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <!-- Perfectly centered wordmark + line with 0,0 center -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#0D0D10" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#0D0D10"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#0D0D10" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#503A70" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#0D0D10"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#0D0D10" opacity="0.65"/>
       </g>
     </g>
     
@@ -133,19 +137,19 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#503A70" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#D9DCE3" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <g transform="translate(0, -20)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#D9DCE3" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#8664B0" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#D9DCE3"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
-      <text x="0" y="78" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#D9DCE3" letter-spacing="10" text-anchor="middle" opacity="0.95">RIDE YOUR WAY</text>
+      <text x="0" y="55" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#D9DCE3" letter-spacing="8" text-anchor="middle" opacity="0.95">RIDE YOUR WAY</text>
     </g>
     
       </g>
@@ -158,19 +162,19 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 260) scale(0.55)">
+      <g transform="translate(390, 270)">
         
-    <g transform="translate(700, 195)">
-      <text x="0" y="0" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="108px" font-weight="700" fill="#0D0D10" letter-spacing="8" text-anchor="middle">
-        <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
+    <g transform="translate(0, -20)">
+      <text x="0" y="-10" font-family="Montserrat, 'Helvetica Neue', Futura, Arial, sans-serif" font-size="78px" font-weight="700" fill="#0D0D10" letter-spacing="6" text-anchor="middle">
+        <tspan x="-230">R</tspan><tspan x="-155">I</tspan><tspan x="-78">D</tspan><tspan x="0">E</tspan><tspan x="78">L</tspan><tspan x="155">I</tspan><tspan x="230">N</tspan>
       </text>
-      <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
-        <polygon points="615,-10 660,-10 645,0 600,0" fill="#0D0D10"/>
-        <polygon points="675,-10 700,-10 685,0 660,0" fill="#0D0D10" opacity="0.65"/>
+      <g transform="translate(-235, 12)">
+        <path d="M 0,0 L 420,0 L 442,-8 L 15,-8 Z" fill="#503A70" opacity="0.95"/>
+        <path d="M 0,0 L 420,0 L 442,-3 L 15,-3 Z" fill="#503A70" opacity="0.9"/>
+        <polygon points="455,-8 488,-8 477,0 442,0" fill="#0D0D10"/>
+        <polygon points="500,-8 518,-8 506,0 488,0" fill="#0D0D10" opacity="0.65"/>
       </g>
-      <text x="0" y="78" font-family="Montserrat, sans-serif" font-size="18px" font-weight="700" fill="#0D0D10" letter-spacing="10" text-anchor="middle" opacity="0.95">RIDE YOUR WAY</text>
+      <text x="0" y="55" font-family="Montserrat, sans-serif" font-size="14px" font-weight="700" fill="#0D0D10" letter-spacing="8" text-anchor="middle" opacity="0.95">RIDE YOUR WAY</text>
     </g>
     
       </g>
@@ -183,9 +187,9 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
       </g>
-      <g transform="translate(390, 270) scale(0.9)">
+      <g transform="translate(390, 260)">
         
-    <g transform="translate(256, 256) scale(1.65)">
+    <g transform="translate(0, 0) scale(1.2)">
       <circle cx="0" cy="0" r="105" fill="none" stroke="#D9DCE3" stroke-width="3" opacity="0.45"/>
       <circle cx="0" cy="0" r="95" fill="none" stroke="#D9DCE3" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
       <g stroke-linecap="round" stroke-linejoin="round">
@@ -207,12 +211,12 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
       </g>
-      <g transform="translate(220, 230)">
-        <rect x="-48" y="-48" width="96" height="96" rx="16" fill="#FAF7F2" stroke="#52525B" stroke-width="2"/>
-        <text x="0" y="-70" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">32×32 FAVICON</text>
-        <g transform="scale(0.35)">
+      <g transform="translate(220, 240)">
+        <rect x="-56" y="-56" width="112" height="112" rx="18" fill="#FAF7F2" stroke="#52525B" stroke-width="2"/>
+        <text x="0" y="-75" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">32×32 FAVICON</text>
+        <g transform="scale(0.42)">
           
-    <g transform="translate(256, 256) scale(0.6)">
+    <g transform="translate(0, 0) scale(0.85)">
       <circle cx="0" cy="0" r="105" fill="none" stroke="#0D0D10" stroke-width="3" opacity="0.45"/>
       <circle cx="0" cy="0" r="95" fill="none" stroke="#0D0D10" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
       <g stroke-linecap="round" stroke-linejoin="round">
@@ -226,12 +230,12 @@
     
         </g>
       </g>
-      <g transform="translate(560, 270)">
+      <g transform="translate(560, 250)">
         <rect x="-120" y="-120" width="240" height="240" rx="40" fill="#0D0D10" stroke="#52525B" stroke-width="3"/>
         <text x="0" y="-150" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">180PX APPLE TOUCH</text>
         <g transform="scale(0.95)">
           
-    <g transform="translate(256, 256) scale(0.68)">
+    <g transform="translate(0, 0) scale(0.9)">
       <circle cx="0" cy="0" r="105" fill="none" stroke="#D9DCE3" stroke-width="3" opacity="0.45"/>
       <circle cx="0" cy="0" r="95" fill="none" stroke="#D9DCE3" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
       <g stroke-linecap="round" stroke-linejoin="round">
