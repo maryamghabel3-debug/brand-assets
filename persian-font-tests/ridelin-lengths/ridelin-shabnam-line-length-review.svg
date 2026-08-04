@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 2000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="review-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121217"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="3200" height="2000" fill="url(#review-bg)"/>
+
+  <!-- Header -->
+  <line x1="100" y1="55" x2="3100" y2="55" stroke="#8A2747" stroke-width="3" opacity="0.8"/>
+  <text x="1600" y="110" font-family="Tahoma, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="4" text-anchor="middle">(Shabnam Bold) ﻢﻨﺒﺷ ﺖﻧﻮﻓ ﺎﺑ ﯼﺍﻩﺩﺎﺟ ﺖﻋﺮﺳ ﻂﺧ ﯼﺍﺮﺑ ﺮﺗﻩﺎﺗﻮﮐ ﻩﺯﺍﺪﻧﺍ ۳ ﯽﺳﺭﺮﺑ — (RIDELIN) ﻦﯿﻟﺪﯾﺍﺭ</text>
+  <text x="1600" y="150" font-family="Tahoma, sans-serif" font-size="18px" font-weight="600" fill="#8664B0" text-anchor="middle">ﺖﯾﺎﺳ ﺭﺪﻫ + ﯽﺟﺎﻋ ﻭ ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﻭﺭ (ﻞﺴﮑﯿﭘ ۳۶۰ ﻭ ﻞﺴﮑﯿﭘ ۴۰۰ ،ﻞﺴﮑﯿﭘ ۴۶۰) ﯼﺍﻩﺩﺎﺟ ﻂﺧ ﻝﻮﻃ ﻖﯿﻗﺩ ﻢﯿﻈﻨﺗ</text>
+  <line x1="100" y1="185" x2="3100" y2="185" stroke="#8A2747" stroke-width="3" opacity="0.8"/>
+
+  <!-- ========================================== -->
+  <!-- ROW 1: L1 (460PX — MATCHED TO WORD WIDTH) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 240)">
+    <text x="0" y="-10" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(«ﻥ» ﺮﯾﺯ ﻥﺎﯾﺎﭘ ﻭ «ﺭ» ﺮﯾﺯ ﺯﺍ ﻉﻭﺮﺷ :ﻦﯿﻟﺪﯾﺍﺭ ﻪﻤﻠﮐ ﺎﺑ ﺽﺮﻋﻢﻫ ﺎﻘﯿﻗﺩ) ﻞﺴﮑﯿﭘ ۴۶۰ ﻝﻮﻃ — L1 ﻪﻨﯾﺰﮔ .۱</text>
+    <!-- Dark -->
+    <g transform="translate(0, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#0D0D10" stroke="#8A2747" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#D9DCE3" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(260, 52)">
+        <path d="M 0,0 L -460,0 L -488,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -460,0 L -488,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-502,-10 -540,-10 -525,0 -488,0" fill="#D9DCE3"/>
+        <polygon points="-552,-10 -575,-10 -562,0 -540,0" fill="#D9DCE3" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#D9DCE3" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#D9DCE3" text-anchor="middle">(0D0D10#) ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﻭﺭ</text>
+    </g>
+    <!-- Light -->
+    <g transform="translate(1560, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#0D0D10" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(260, 52)">
+        <path d="M 0,0 L -460,0 L -488,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -460,0 L -488,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-502,-10 -540,-10 -525,0 -488,0" fill="#0D0D10"/>
+        <polygon points="-552,-10 -575,-10 -562,0 -540,0" fill="#0D0D10" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#0D0D10" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#0D0D10" text-anchor="middle">(FAF7F2#) ﯽﺟﺎﻋ ﯼﻭﺭ</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 2: L2 (400PX — SLEEKER AND SHORTER) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 680)">
+    <text x="0" y="-10" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(ﺎﻣ ﻝﻭﺍ ﺩﺎﻬﻨﺸﯿﭘ — ﮏﯿﺷ ﺭﺎﯿﺴﺑ ﻭ ﺭﻮﺟﻭﻊﻤﺟ ،ﺮﺗﻩﺎﺗﻮﮐ) ﻞﺴﮑﯿﭘ ۴۰۰ ﻝﻮﻃ — L2 ﻪﻨﯾﺰﮔ .۲</text>
+    <!-- Dark -->
+    <g transform="translate(0, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#0D0D10" stroke="#8A2747" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#D9DCE3" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(230, 52)">
+        <path d="M 0,0 L -400,0 L -428,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -400,0 L -428,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-442,-10 -480,-10 -465,0 -428,0" fill="#D9DCE3"/>
+        <polygon points="-492,-10 -515,-10 -502,0 -480,0" fill="#D9DCE3" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#D9DCE3" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#D9DCE3" text-anchor="middle">(0D0D10#) ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﻭﺭ</text>
+    </g>
+    <!-- Light -->
+    <g transform="translate(1560, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#0D0D10" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(230, 52)">
+        <path d="M 0,0 L -400,0 L -428,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -400,0 L -428,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-442,-10 -480,-10 -465,0 -428,0" fill="#0D0D10"/>
+        <polygon points="-492,-10 -515,-10 -502,0 -480,0" fill="#0D0D10" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#0D0D10" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#0D0D10" text-anchor="middle">(FAF7F2#) ﯽﺟﺎﻋ ﯼﻭﺭ</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 3: L3 (360PX — COMPACT DYNAMIC) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 1120)">
+    <text x="0" y="-10" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(ﻪﻤﻠﮐ ﯽﻧﺎﯿﻣ ﺶﺨﺑ ﺮﯾﺯ ﺭﺩ ﺰﮐﺮﻤﺘﻣ ﻭ ﻝﺎﻤﯿﻨﯿﻣ ﻩﺎﺗﻮﮐ) ﻞﺴﮑﯿﭘ ۳۶۰ ﻝﻮﻃ — L3 ﻪﻨﯾﺰﮔ .۳</text>
+    <!-- Dark -->
+    <g transform="translate(0, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#0D0D10" stroke="#8A2747" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#D9DCE3" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(210, 52)">
+        <path d="M 0,0 L -360,0 L -388,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -360,0 L -388,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-402,-10 -440,-10 -425,0 -388,0" fill="#D9DCE3"/>
+        <polygon points="-452,-10 -475,-10 -462,0 -440,0" fill="#D9DCE3" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#D9DCE3" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#D9DCE3" text-anchor="middle">(0D0D10#) ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﻭﺭ</text>
+    </g>
+    <!-- Light -->
+    <g transform="translate(1560, 30)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="360" rx="16" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(720, 180) scale(0.92)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#0D0D10" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(210, 52)">
+        <path d="M 0,0 L -360,0 L -388,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -360,0 L -388,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-402,-10 -440,-10 -425,0 -388,0" fill="#0D0D10"/>
+        <polygon points="-452,-10 -475,-10 -462,0 -440,0" fill="#0D0D10" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#0D0D10" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="720" y="325" font-family="Tahoma, sans-serif" font-size="16px" font-weight="600" fill="#0D0D10" text-anchor="middle">(FAF7F2#) ﯽﺟﺎﻋ ﯼﻭﺭ</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 4: WOOCOMMERCE NAVBAR SIMULATION (L2 400PX) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 1580)">
+    <text x="0" y="-10" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(ﻢﻨﺒﺷ ﺖﻧﻮﻓ ﻭ ﺮﺗﻩﺎﺗﻮﮐ ﺖﻋﺮﺳ ﻂﺧ ﺎﺑ) ﺱﺮﻣﺎﮐﻭﻭ ﺖﯾﺎﺳ ﺭﺪﻫ ﺭﺩ ﺶﯾﺎﻤﻧ .۴</text>
+    <rect width="3000" height="240" rx="20" fill="#0D0D10" stroke="#27272A" stroke-width="2"/>
+    <g transform="translate(60, 70)">
+      <rect width="2880" height="100" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="1.5"/>
+      <g transform="translate(2500, 48) scale(0.44)">
+        
+    <g transform="translate(0, 0)">
+      <!-- Persian Wordmark: رایدلین (Shabnam Bold) -->
+      <text x="0" y="0" font-family="Shabnam, Tahoma, sans-serif" font-size="112px" font-weight="700" fill="#D9DCE3" letter-spacing="0" text-anchor="middle">ﻦﯿﻟﺪﯾﺍﺭ</text>
+      
+      <!-- Right-to-Left Shorter Horizon Speed Blade Line ('Ye Khat') -->
+      <g transform="translate(230, 52)">
+        <path d="M 0,0 L -400,0 L -428,-10 L -20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L -400,0 L -428,-4 L -20,-4 Z" fill="#681B34" opacity="0.9"/>
+        <polygon points="-442,-10 -480,-10 -465,0 -428,0" fill="#D9DCE3"/>
+        <polygon points="-492,-10 -515,-10 -502,0 -480,0" fill="#D9DCE3" opacity="0.65"/>
+      </g>
+      
+      <!-- Connected Persian Subtext (letter-spacing="0") -->
+      <text x="0" y="102" font-family="Shabnam, Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#D9DCE3" letter-spacing="0" text-anchor="middle" opacity="0.85">ﻥﺍﺮﯾﺍ • ﺖﻠﮑﯿﺳﺭﻮﺗﻮﻣ ﯼﺍﻪﻓﺮﺣ ﯼﺭﻮﺴﺴﮐﺍ</text>
+    </g>
+    
+      </g>
+      <text x="80" y="55" font-family="Tahoma, sans-serif" font-size="20px" font-weight="600" fill="#D9DCE3">(۲) ﺪﯾﺮﺧ ﺪﺒﺳ        ﻦﯿﻟﺪﯾﺍﺭ ﻩﺭﺎﺑﺭﺩ        ﻥﺍﻮﻧﺎﺑ ﺕﺍﺰﯿﻬﺠﺗ        ﺕﻻﻮﺼﺤﻣ :ﯽﺳﺭﺎﻓ ﯼﻮﻨﻣ</text>
+    </g>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="1600" y="1950" font-family="Tahoma, sans-serif" font-size="18px" fill="#71717A" text-anchor="middle">(Shabnam Bold - SIL OFL) ﻢﻨﺒﺷ ﺖﻧﻮﻓ ﺎﺑ ﯼﺍﻩﺩﺎﺟ ﺖﻋﺮﺳ ﻂﺧ ﻩﺯﺍﺪﻧﺍ ۳ ﯽﺳﺭﺮﺑ — (RIDELIN.IR) ﻦﯿﻟﺪﯾﺍﺭ</text>
+</svg>
