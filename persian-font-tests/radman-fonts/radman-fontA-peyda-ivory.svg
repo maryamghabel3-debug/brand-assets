@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 380" width="100%" height="100%">
+  <rect width="1400" height="380" fill="#FAF7F2"/>
+  <rect x="35" y="35" width="1330" height="310" rx="12" fill="none" stroke="#18181B" stroke-width="1.5" opacity="0.25"/>
+  <g transform="translate(700, 205)">
+    
+    <g transform="translate(0, 0)">
+      <!-- Identical Shamsa Star Ornament above wordmark -->
+      
+    <!-- 8-POINTED PERSIAN SHAMSA STAR ORNAMENT (IDENTICAL IN ALL RADMAN VERSIONS) -->
+    <g transform="translate(0, -95) scale(1.1)">
+      <path d="M -150,0 L -36,0" stroke="#18181B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-150" cy="0" r="2.5" fill="#18181B"/>
+      <polygon points="-90,-4 -86,0 -90,4 -94,0" fill="#18181B" opacity="0.8"/>
+      
+      <g fill="#18181B">
+        <polygon points="0,-16 6,-6 16,0 6,6 0,16 -6,6 -16,0 -6,-6" opacity="0.95"/>
+        <polygon points="0,-12 8,-8 12,0 8,8 0,12 -8,8 -12,0 -8,-8" fill="none" stroke="#18181B" stroke-width="1.5"/>
+        <polygon points="0,-6 6,0 0,6 -6,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="2" fill="#18181B"/>
+        <polygon points="-26,0 -22,-4 -18,0 -22,4"/>
+        <polygon points="26,0 22,-4 18,0 22,4"/>
+        <circle cx="0" cy="-24" r="2" fill="#18181B"/>
+        <circle cx="0" cy="24" r="2" fill="#18181B"/>
+      </g>
+      
+      <path d="M 36,0 L 150,0" stroke="#18181B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="150" cy="0" r="2.5" fill="#18181B"/>
+      <polygon points="90,-4 94,0 90,4 86,0" fill="#18181B" opacity="0.8"/>
+    </g>
+    
+      <!-- Persian Wordmark: رادمان -->
+      <text x="0" y="0" font-family="Sahel, Tahoma, serif" font-size="108px" font-weight="700" fill="#18181B" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      <!-- Subtext below: سیلور ۹۲۵ -->
+      <text x="0" y="72" font-family="Sahel, Tahoma, sans-serif" font-size="24px" font-weight="600" fill="#3F3F46" letter-spacing="4" text-anchor="middle">ﻩﺮﻘﻧ ﺕﺍﺮﻫﺍﻮﺟ ﻪﻋﻮﻤﺠﻣ • ۹۲۵ ﺭﻮﻠﯿﺳ</text>
+    </g>
+    
+  </g>
+  <text x="1340" y="65" font-family="Tahoma, sans-serif" font-size="12px" font-weight="700" fill="#18181B" style="text-anchor: end; opacity: 0.6;">ﯽﺟﺎﻋ ﯼﻭﺭ (Sahel Bold - SIL OFL) ﻞﺣﺎﺳ/ﺍﺪﯿﭘ :A ﺖﻧﻮﻓ</text>
+</svg>
