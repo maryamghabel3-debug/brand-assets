@@ -17,13 +17,13 @@
 - Brand name: FINALIZED  
 - Domain: ridelin.ir  
 - Logo: **APPROVED AND CLOSED (Phase 1)**  
-- Date of approval: 2026-08-03  
+- Date of approval: 2026-08-04  
 - Approved Final Files (`brand-assets/ridelin/APPROVED/`):  
-  - Website Header (Pure Wordmark + Line, zero circle, zero subtext): `ridelin-header-transparent-1600.png`, `ridelin-header-black-transparent-1600.png`, `ridelin-header-on-black-1600.png`, `ridelin-header-on-ivory-1600.png`, and SVGs  
+  - Website Header (Pure Wordmark + Line, zero circle, zero subtext, Primary Burgundy #8A2747): `ridelin-header-transparent-1600.png`, `ridelin-header-black-transparent-1600.png`, `ridelin-header-on-black-1600.png`, `ridelin-header-on-ivory-1600.png`, and SVGs  
   - Packaging & Print (Wordmark + Line + single tagline 'RIDE YOUR WAY'): `ridelin-packaging-on-black-1600.png`, `ridelin-packaging-on-ivory-1600.png`, and SVGs  
-  - Primary Icon / Social Avatar (Single Chic 'R' Monogram): `ridelin-monogram-white-512.png`, `ridelin-monogram-black-512.png`, `ridelin-monogram-white.svg`, `ridelin-monogram-black.svg`  
+  - Primary Icon / Social Avatar (Single Chic English 'R' Monogram): `ridelin-monogram-white-512.png`, `ridelin-monogram-black-512.png`, `ridelin-monogram-white.svg`, `ridelin-monogram-black.svg`  
   - Favicons & iOS App Icons: `favicon-32.png`, `favicon-32.svg`, `apple-touch-icon-180.png`, `apple-touch-icon-180.svg`  
-  - Master Confirmation Sheet: `ridelin-latest-approved-confirmation.png`, `ridelin-latest-approved-confirmation.svg`  
+  - Master Confirmation Sheet: `ridelin-APPROVED-confirmation.png`, `ridelin-APPROVED-confirmation.svg`  
   - Documentation: `usage-guide.md`  
   
 ## Status  

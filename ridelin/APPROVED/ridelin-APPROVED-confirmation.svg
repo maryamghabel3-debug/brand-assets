@@ -10,14 +10,13 @@
     </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="3600" height="2400" fill="url(#confirm-bg)"/>
 
   <!-- Top Header -->
-  <line x1="120" y1="60" x2="3480" y2="60" stroke="#503A70" stroke-width="3" opacity="0.8"/>
-  <text x="1800" y="115" font-family="Montserrat, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">RIDELIN — FINAL APPROVED PHASE-1 LAUNCH ASSET SUITE (CONFIRMATION SHEET)</text>
-  <text x="1800" y="155" font-family="Montserrat, sans-serif" font-size="16px" font-weight="600" fill="#8664B0" letter-spacing="6" text-anchor="middle">LOCKED PALETTE • ZERO CIRCLE IN WORDMARK • NO OVERLAPPING TEXT • SINGLE 'R' MONOGRAM</text>
-  <line x1="120" y1="185" x2="3480" y2="185" stroke="#503A70" stroke-width="3" opacity="0.8"/>
+  <line x1="120" y1="60" x2="3480" y2="60" stroke="#8A2747" stroke-width="3" opacity="0.8"/>
+  <text x="1800" y="115" font-family="Montserrat, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">RIDELIN — FINAL APPROVED PHASE-1 LAUNCH ASSET SUITE (THE LATEST APPROVED DESIGN)</text>
+  <text x="1800" y="155" font-family="Montserrat, sans-serif" font-size="16px" font-weight="600" fill="#D9DCE3" letter-spacing="6" text-anchor="middle">LOCKED PRIMARY BURGUNDY PALETTE (#8A2747) • MATTE BLACK (#0D0D10) • PLATINUM (#D9DCE3) • IVORY (#FAF7F2)</text>
+  <line x1="120" y1="185" x2="3480" y2="185" stroke="#8A2747" stroke-width="3" opacity="0.8"/>
 
   <!-- ========================================== -->
   <!-- ROW 1: WEBSITE HEADER LOGOS (PURE WORDMARK + LINE) -->
@@ -26,7 +25,7 @@
     
     <!-- 1. Header Transparent -->
     <g transform="translate(0, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">1. ridelin-logo-header-transparent-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">1. ridelin-header-transparent-1600.png</text>
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
       </g>
@@ -37,8 +36,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
@@ -50,7 +49,7 @@
 
     <!-- 2. Header Black Transparent -->
     <g transform="translate(860, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">2. ridelin-logo-header-black-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">2. ridelin-header-black-transparent-1600.png</text>
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
       </g>
@@ -61,8 +60,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#000000"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#000000" opacity="0.65"/>
       </g>
@@ -74,9 +73,9 @@
 
     <!-- 3. Header On Black -->
     <g transform="translate(1720, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">3. ridelin-logo-header-on-black-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">3. ridelin-header-on-black-1600.png</text>
       <g filter="url(#card-shadow)">
-        <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#503A70" stroke-width="2"/>
+        <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#8A2747" stroke-width="2"/>
       </g>
       <g transform="translate(390, 260) scale(0.55)">
         
@@ -85,8 +84,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
@@ -98,7 +97,7 @@
 
     <!-- 4. Header On Ivory -->
     <g transform="translate(2580, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">4. ridelin-logo-header-on-ivory-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">4. ridelin-header-on-ivory-1600.png</text>
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2"/>
       </g>
@@ -109,8 +108,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#0D0D10"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#0D0D10" opacity="0.65"/>
       </g>
@@ -129,9 +128,9 @@
     
     <!-- 5. Packaging on Black -->
     <g transform="translate(0, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">5. ridelin-logo-packaging-on-black-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#D9DCE3" letter-spacing="2" text-anchor="middle">5. ridelin-packaging-on-black-1600.png</text>
       <g filter="url(#card-shadow)">
-        <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#503A70" stroke-width="2"/>
+        <rect width="780" height="540" rx="14" fill="#0D0D10" stroke="#8A2747" stroke-width="2"/>
       </g>
       <g transform="translate(390, 260) scale(0.55)">
         
@@ -140,8 +139,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#8664B0" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#D9DCE3"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#D9DCE3" opacity="0.65"/>
       </g>
@@ -154,7 +153,7 @@
 
     <!-- 6. Packaging on Ivory -->
     <g transform="translate(860, 0)">
-      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">6. ridelin-logo-packaging-on-ivory-1600.png</text>
+      <text x="390" y="-12" font-family="Montserrat, sans-serif" font-size="16px" font-weight="700" fill="#A1A1AA" letter-spacing="2" text-anchor="middle">6. ridelin-packaging-on-ivory-1600.png</text>
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2"/>
       </g>
@@ -165,8 +164,8 @@
         <tspan x="-315">R</tspan><tspan x="-210">I</tspan><tspan x="-105">D</tspan><tspan x="0">E</tspan><tspan x="105">L</tspan><tspan x="210">I</tspan><tspan x="315">N</tspan>
       </text>
       <g transform="translate(-320, 28)">
-        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#503A70" opacity="0.95"/>
-        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#503A70" opacity="0.9"/>
+        <path d="M 0,0 L 570,0 L 600,-10 L 20,-10 Z" fill="#8A2747" opacity="0.95"/>
+        <path d="M 0,0 L 570,0 L 600,-4 L 20,-4 Z" fill="#681B34" opacity="0.9"/>
         <polygon points="615,-10 660,-10 645,0 600,0" fill="#0D0D10"/>
         <polygon points="675,-10 700,-10 685,0 660,0" fill="#0D0D10" opacity="0.65"/>
       </g>
@@ -185,16 +184,19 @@
       </g>
       <g transform="translate(390, 270) scale(0.9)">
         
-    <g transform="translate(256, 256) scale(1.65)">
-      <circle cx="0" cy="0" r="105" fill="none" stroke="#D9DCE3" stroke-width="3" opacity="0.45"/>
-      <circle cx="0" cy="0" r="95" fill="none" stroke="#D9DCE3" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
-      <g stroke-linecap="round" stroke-linejoin="round">
-        <line x1="-35" y1="-55" x2="-35" y2="55" stroke="#D9DCE3" stroke-width="16"/>
-        <path d="M -35,-55 L 15,-55 C 44,-55 58,-38 58,-16 C 58,6 44,16 15,16 L -35,16" fill="none" stroke="#D9DCE3" stroke-width="16"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#503A70" stroke-width="15"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#8664B0" stroke-width="5" opacity="0.95"/>
+    <g transform="translate(256, 256) scale(1.0)">
+      <circle cx="0" cy="0" r="165" fill="none" stroke="#D9DCE3" stroke-width="5" opacity="0.75"/>
+      <circle cx="0" cy="0" r="150" fill="none" stroke="#8A2747" stroke-width="2" stroke-dasharray="10 6" opacity="0.6"/>
+      <g transform="translate(0, -25)" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="-55" y1="-75" x2="-55" y2="75" stroke="#D9DCE3" stroke-width="26"/>
+        <path d="M -55,-75 L 18,-75 C 65,-75 85,-48 85,-15 C 85,18 65,40 18,40 L -55,40" fill="none" stroke="#D9DCE3" stroke-width="26"/>
+        <line x1="5" y1="35" x2="68" y2="75" stroke="#D9DCE3" stroke-width="26"/>
       </g>
-      <circle cx="-65" cy="-55" r="6" fill="#503A70"/>
+      <g transform="translate(-115, 95)">
+        <path d="M 0,0 L 200,0 L 215,-6 L 8,-6 Z" fill="#8A2747"/>
+        <path d="M 0,0 L 200,0 L 215,-2.5 L 8,-2.5 Z" fill="#681B34"/>
+        <polygon points="222,-6 242,-6 235,0 215,0" fill="#D9DCE3"/>
+      </g>
     </g>
     
       </g>
@@ -207,40 +209,46 @@
       <g filter="url(#card-shadow)">
         <rect width="780" height="540" rx="14" fill="#14141A" stroke="#3F3F46" stroke-width="2"/>
       </g>
-      <g transform="translate(220, 230)">
-        <rect x="-48" y="-48" width="96" height="96" rx="16" fill="#FAF7F2" stroke="#52525B" stroke-width="2"/>
-        <text x="0" y="-70" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">32×32 FAVICON</text>
-        <g transform="scale(0.35)">
+      <g transform="translate(220, 240)">
+        <rect x="-56" y="-56" width="112" height="112" rx="18" fill="#FAF7F2" stroke="#8A2747" stroke-width="2"/>
+        <text x="0" y="-75" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">32×32 FAVICON</text>
+        <g transform="scale(0.38)">
           
     <g transform="translate(256, 256) scale(0.6)">
-      <circle cx="0" cy="0" r="105" fill="none" stroke="#0D0D10" stroke-width="3" opacity="0.45"/>
-      <circle cx="0" cy="0" r="95" fill="none" stroke="#0D0D10" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
-      <g stroke-linecap="round" stroke-linejoin="round">
-        <line x1="-35" y1="-55" x2="-35" y2="55" stroke="#0D0D10" stroke-width="16"/>
-        <path d="M -35,-55 L 15,-55 C 44,-55 58,-38 58,-16 C 58,6 44,16 15,16 L -35,16" fill="none" stroke="#0D0D10" stroke-width="16"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#503A70" stroke-width="15"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#503A70" stroke-width="5" opacity="0.95"/>
+      <circle cx="0" cy="0" r="165" fill="none" stroke="#0D0D10" stroke-width="5" opacity="0.75"/>
+      <circle cx="0" cy="0" r="150" fill="none" stroke="#8A2747" stroke-width="2" stroke-dasharray="10 6" opacity="0.6"/>
+      <g transform="translate(0, -25)" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="-55" y1="-75" x2="-55" y2="75" stroke="#0D0D10" stroke-width="26"/>
+        <path d="M -55,-75 L 18,-75 C 65,-75 85,-48 85,-15 C 85,18 65,40 18,40 L -55,40" fill="none" stroke="#0D0D10" stroke-width="26"/>
+        <line x1="5" y1="35" x2="68" y2="75" stroke="#0D0D10" stroke-width="26"/>
       </g>
-      <circle cx="-65" cy="-55" r="6" fill="#503A70"/>
+      <g transform="translate(-115, 95)">
+        <path d="M 0,0 L 200,0 L 215,-6 L 8,-6 Z" fill="#8A2747"/>
+        <path d="M 0,0 L 200,0 L 215,-2.5 L 8,-2.5 Z" fill="#681B34"/>
+        <polygon points="222,-6 242,-6 235,0 215,0" fill="#0D0D10"/>
+      </g>
     </g>
     
         </g>
       </g>
       <g transform="translate(560, 270)">
-        <rect x="-120" y="-120" width="240" height="240" rx="40" fill="#0D0D10" stroke="#52525B" stroke-width="3"/>
+        <rect x="-120" y="-120" width="240" height="240" rx="40" fill="#0D0D10" stroke="#8A2747" stroke-width="3"/>
         <text x="0" y="-150" font-family="Montserrat, sans-serif" font-size="13px" fill="#A1A1AA" text-anchor="middle">180PX APPLE TOUCH</text>
         <g transform="scale(0.95)">
           
     <g transform="translate(256, 256) scale(0.68)">
-      <circle cx="0" cy="0" r="105" fill="none" stroke="#D9DCE3" stroke-width="3" opacity="0.45"/>
-      <circle cx="0" cy="0" r="95" fill="none" stroke="#D9DCE3" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
-      <g stroke-linecap="round" stroke-linejoin="round">
-        <line x1="-35" y1="-55" x2="-35" y2="55" stroke="#D9DCE3" stroke-width="16"/>
-        <path d="M -35,-55 L 15,-55 C 44,-55 58,-38 58,-16 C 58,6 44,16 15,16 L -35,16" fill="none" stroke="#D9DCE3" stroke-width="16"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#503A70" stroke-width="15"/>
-        <path d="M -5,16 C 10,16 25,28 42,58 C 55,80 85,80 110,68" fill="none" stroke="#8664B0" stroke-width="5" opacity="0.95"/>
+      <circle cx="0" cy="0" r="165" fill="none" stroke="#D9DCE3" stroke-width="5" opacity="0.75"/>
+      <circle cx="0" cy="0" r="150" fill="none" stroke="#8A2747" stroke-width="2" stroke-dasharray="10 6" opacity="0.6"/>
+      <g transform="translate(0, -25)" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="-55" y1="-75" x2="-55" y2="75" stroke="#D9DCE3" stroke-width="26"/>
+        <path d="M -55,-75 L 18,-75 C 65,-75 85,-48 85,-15 C 85,18 65,40 18,40 L -55,40" fill="none" stroke="#D9DCE3" stroke-width="26"/>
+        <line x1="5" y1="35" x2="68" y2="75" stroke="#D9DCE3" stroke-width="26"/>
       </g>
-      <circle cx="-65" cy="-55" r="6" fill="#503A70"/>
+      <g transform="translate(-115, 95)">
+        <path d="M 0,0 L 200,0 L 215,-6 L 8,-6 Z" fill="#8A2747"/>
+        <path d="M 0,0 L 200,0 L 215,-2.5 L 8,-2.5 Z" fill="#681B34"/>
+        <polygon points="222,-6 242,-6 235,0 215,0" fill="#D9DCE3"/>
+      </g>
     </g>
     
         </g>
@@ -253,7 +261,7 @@
   <!-- ROW 3: QUALITY CHECK SUMMARY -->
   <!-- ========================================== -->
   <g transform="translate(120, 1530)">
-    <rect width="3360" height="740" rx="18" fill="#14141A" stroke="#503A70" stroke-width="2.5"/>
+    <rect width="3360" height="740" rx="18" fill="#14141A" stroke="#8A2747" stroke-width="2.5"/>
     <text x="1680" y="85" font-family="Montserrat, sans-serif" font-size="30px" font-weight="800" fill="#D9DCE3" letter-spacing="6" text-anchor="middle">QUALITY VERIFICATION AUDIT — EVERY EXPORT GUARANTEED</text>
     
     <g transform="translate(200, 180)">
@@ -277,8 +285,8 @@
       <text x="0" y="125" font-family="Montserrat, sans-serif" font-size="26px" font-weight="700" fill="#FFFFFF">✓  6. FAVICON NATIVE CLARITY:</text>
       <text x="50" y="170" font-family="Montserrat, sans-serif" font-size="20px" fill="#A1A1AA">favicon-32.png is sharp and readable at native 32×32 size with solid black on ivory #FAF7F2.</text>
       
-      <text x="0" y="250" font-family="Montserrat, sans-serif" font-size="26px" font-weight="700" fill="#FFFFFF">✓  7. LOCKED CHIC PALETTE:</text>
-      <text x="50" y="295" font-family="Montserrat, sans-serif" font-size="20px" fill="#A1A1AA">Matte Black (#0D0D10), Deep Royal Purple (#503A70), Platinum (#D9DCE3), and Ivory (#FAF7F2) strictly applied.</text>
+      <text x="0" y="250" font-family="Montserrat, sans-serif" font-size="26px" font-weight="700" fill="#FFFFFF">✓  7. LOCKED BURGUNDY PALETTE:</text>
+      <text x="50" y="295" font-family="Montserrat, sans-serif" font-size="20px" fill="#A1A1AA">Matte Black (#0D0D10), Primary Burgundy (#8A2747), Dark Burgundy (#681B34), Platinum (#D9DCE3), and Ivory (#FAF7F2) strictly applied.</text>
       
       <text x="0" y="375" font-family="Montserrat, sans-serif" font-size="26px" font-weight="700" fill="#FFFFFF">✓  8. RIDELIN PHASE 1 LOCKED:</text>
       <text x="50" y="420" font-family="Montserrat, sans-serif" font-size="20px" fill="#A1A1AA">brand-decisions.md has been officially updated to lock RIDELIN Phase 1 as APPROVED AND CLOSED.</text>

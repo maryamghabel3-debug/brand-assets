@@ -1,6 +1,6 @@
 # RIDELIN — Motorcycle Accessories Brand Identity Usage Guide (Approved Phase 1)
 
-This directory contains the production-ready **RIDELIN Logo Suite** engineered for women-first unisex motorcycle riders in Iran (Domain: `ridelin.ir`). Every file adheres strictly to the locked palette: Matte Black (`#0D0D10`), Deep Royal Purple (`#503A70`), Platinum (`#D9DCE3`), and Ivory (`#FAF7F2`).
+This directory contains the production-ready **RIDELIN Logo Suite** engineered for women-first unisex motorcycle riders in Iran (Domain: `ridelin.ir`). Every file adheres strictly to the locked Primary Burgundy palette: Matte Black (`#0D0D10`), Primary Burgundy (`#8A2747`), Dark Burgundy (`#681B34`), Platinum (`#D9DCE3`), Ivory (`#FAF7F2`), and Charcoal (`#17171A`).
 
 ---
 
@@ -10,8 +10,8 @@ This directory contains the production-ready **RIDELIN Logo Suite** engineered f
 | :--- | :--- | :--- |
 | **`ridelin-header-*.{svg,png}`** | **Pure Wordmark + Line** (No circle, no subtext) | **Primary Website Header:** WooCommerce desktop navigation bar, mobile sticky header, email newsletter header. |
 | **`ridelin-packaging-*.{svg,png}`** | **Wordmark + Line + Tagline** (`RIDE YOUR WAY`) | **Packaging & Print:** Gift boxes, bags, certificate of authenticity cards, homepage promotional banners. |
-| **`ridelin-monogram-*.{svg,png}`** | **Standalone Single Chic 'R' Monogram** | **Social & Avatars:** Instagram profile picture (`@ridelin.ir`), Telegram/WhatsApp avatar, helmet side-stickers, glove wrist patches. |
-| **`favicon-32.png`** & **`apple-touch-icon-180.png`** | **Native Favicons** | **Browser & iOS:** Standard browser tab icon (`32×32px` on ivory) and Apple iOS home screen bookmark (`180×180px`). |
+| **`ridelin-monogram-*.{svg,png}`** | **Standalone Single Chic English 'R' Monogram** | **Social & Avatars:** Instagram profile picture (`@ridelin.ir`), Telegram/WhatsApp avatar, helmet side-stickers, glove wrist patches. |
+| **`favicon-32.png`** & **`apple-touch-icon-180.png`** | **Native Favicons** | **Browser & iOS:** Standard browser tab icon (`32×32px` on ivory `#FAF7F2`) and Apple iOS home screen bookmark (`180×180px`). |
 
 ---
 
