@@ -4,10 +4,8 @@
   
     <g transform="translate(0, -10)">
       
-    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST WITH EXPLICIT INNER BACKGROUND COLOR -->
-    <g transform="translate(600, 295) scale(1.08)" filter="none">
-      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
-      <!-- Explicit inner background disc so inside of Shamsa is always bg_fill (Matte Black or Ivory) -->
+    <g transform="translate(600, 295) scale(1.08)">
+      <!-- Explicit inner background disc so inside of Shamsa is always bg_fill (Ivory #FAF7F2 or Matte Black #0B0B0E) -->
       <circle cx="0" cy="0" r="82" fill="#FAF7F2"/>
       
       <g stroke="#27272A" stroke-width="1.6" fill="none" opacity="0.95">
@@ -21,8 +19,8 @@
         
         <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#18181B"/>
         <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#18181B"/>
-        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#18181B"/>
-        <path d="M -66,66 L -50,55 L -58,58 L -55,-50 Z" fill="#18181B"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,-50 Z" fill="#18181B"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#18181B"/>
       </g>
 
       <!-- Inner Geometry Rings -->
@@ -31,13 +29,9 @@
 
       <!-- Persian-French Haute Calligraphy Monogram 'R' -->
       <g fill="#18181B">
-        <!-- High contrast Didot stem with classic serifs -->
         <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
-        <!-- Upper Bowl and Royal Flourish Loop -->
         <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
-        <!-- Persian Royal Calligraphy Sweeping Tail -->
         <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
-        <!-- Diamond Royal Accent Dot -->
         <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#18181B"/>
       </g>
     </g>
