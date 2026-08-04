@@ -218,7 +218,7 @@
       </g>
     </g>
     
-      <text x="600" y="495" font-family="Gandom, Tahoma, serif" font-size="135px" font-weight="700" fill="#FAF7F2" letter-spacing="-0.02em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      <text x="600" y="500" font-family="Gandom, Tahoma, serif" font-size="140px" font-weight="700" fill="#FAF7F2" letter-spacing="-0.025em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
       
       <g transform="translate(600, 558)">
         <path d="M -170,0 L -38,0" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
@@ -239,7 +239,7 @@
         <polygon points="110,-3 113,0 110,3 107,0" fill="#FAF7F2" stroke="none" opacity="0.8"/>
       </g>
       
-      <text x="600" y="615" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <text x="600" y="622" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
       <g transform="translate(600, 678)" opacity="0.85">
         <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
       </g>
@@ -449,7 +449,7 @@
       </g>
     </g>
     
-      <text x="600" y="495" font-family="Gandom, Tahoma, serif" font-size="135px" font-weight="700" fill="#0B0B0E" letter-spacing="-0.02em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      <text x="600" y="500" font-family="Gandom, Tahoma, serif" font-size="140px" font-weight="700" fill="#0B0B0E" letter-spacing="-0.025em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
       
       <g transform="translate(600, 558)">
         <path d="M -170,0 L -38,0" stroke="#0B0B0E" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
@@ -470,7 +470,7 @@
         <polygon points="110,-3 113,0 110,3 107,0" fill="#0B0B0E" stroke="none" opacity="0.8"/>
       </g>
       
-      <text x="600" y="615" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <text x="600" y="622" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
       <g transform="translate(600, 678)" opacity="0.85">
         <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
       </g>

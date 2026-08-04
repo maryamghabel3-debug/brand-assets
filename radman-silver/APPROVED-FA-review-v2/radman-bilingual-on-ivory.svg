@@ -19,7 +19,6 @@
   
   <!-- 3. CENTERED LOGO COMPOSITION -->
   <g transform="translate(0, -10)">
-    <!-- ROYAL SHAMSA + R MONOGRAM CREST -->
     <g transform="translate(600, 265) scale(1.05)">
       <g stroke="#0B0B0E" stroke-width="1.6" fill="none" opacity="0.95">
         <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
@@ -45,9 +44,9 @@
     
     <!-- BILINGUAL WORDMARKS -->
     <text x="600" y="445" font-family="Cinzel, Didot, serif" font-size="62px" font-weight="700" fill="#0B0B0E" text-anchor="middle" letter-spacing="8">RADMAN</text>
-    <text x="600" y="545" font-family="Gandom, Tahoma, serif" font-size="110px" font-weight="700" fill="#0B0B0E" letter-spacing="-0.02em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+    <text x="600" y="550" font-family="Gandom, Tahoma, serif" font-size="116px" font-weight="700" fill="#0B0B0E" letter-spacing="-0.025em" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
     
-    <text x="600" y="630" font-family="Montserrat, Gandom, sans-serif" font-size="20px" font-weight="700" fill="#0B0B0E" text-anchor="middle">SILVER 925  •  ۹۲۵ ﺭﻮﻠﯿﺳ</text>
-    <text x="600" y="695" font-family="Cinzel, Gandom, serif" font-size="13px" font-weight="700" fill="#0B0B0E" letter-spacing="3" text-anchor="middle">STERLING • MAISON • ۱۴۰۵ ﺲﯿﺳﺄﺗ</text>
+    <text x="600" y="635" font-family="Montserrat, Gandom, sans-serif" font-size="20px" font-weight="700" fill="#0B0B0E" text-anchor="middle">SILVER 925  •  ۹۲۵ ﺭﻮﻠﯿﺳ</text>
+    <text x="600" y="700" font-family="Cinzel, Gandom, serif" font-size="13px" font-weight="700" fill="#0B0B0E" letter-spacing="3" text-anchor="middle">STERLING • MAISON • ۱۴۰۵ ﺲﯿﺳﺄﺗ</text>
   </g>
 </svg>
