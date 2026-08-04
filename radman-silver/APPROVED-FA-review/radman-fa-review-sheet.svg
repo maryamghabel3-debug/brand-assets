@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 2400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="review-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121217"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="3200" height="2400" fill="url(#review-bg)"/>
+
+  <!-- Header -->
+  <line x1="100" y1="55" x2="3100" y2="55" stroke="#E2E8F0" stroke-width="3" opacity="0.8"/>
+  <text x="1600" y="110" font-family="Tahoma, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="4" text-anchor="middle">(Gandom Bold) ﻡﺪﻨﮔ ﺖﻧﻮﻓ ﺎﺑ ﯽﺳﺭﺎﻓ ﯽﮕﻧﺭ ﺖﻠﭘ ۴ ﯽﺳﺭﺮﺑ ﻊﻣﺎﺟ ﺖﯿﺷ — (RADMAN SILVER) ﺭﻮﻠﯿﺳ ﻥﺎﻣﺩﺍﺭ</text>
+  <text x="1600" y="150" font-family="Tahoma, sans-serif" font-size="18px" font-weight="600" fill="#E2E8F0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ ﻭ ﻪﺴﻤﺷ ،ﻥﺎﻣﺩﺍﺭ ﻪﻤﻠﮐ (Zoom Audit) ﻖﯿﻗﺩ ﯽﺳﺭﺮﺑ ﻭ ﻑﺎﻔﺷ ،ﯽﺟﺎﻋ ،ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﺎﻫﻪﺨﺴﻧ ﺶﯾﺎﻤﻧ</text>
+  <line x1="100" y1="185" x2="3100" y2="185" stroke="#E2E8F0" stroke-width="3" opacity="0.8"/>
+
+  <!-- ROW 1: DARK ON BLACK & BLACK ON IVORY -->
+  <g transform="translate(100, 240)">
+    <!-- Dark on Black -->
+    <g transform="translate(0, 0)">
+      <text x="720" y="-12" font-family="Tahoma, sans-serif" font-size="22px" font-weight="700" fill="#E2E8F0" text-anchor="middle">(radman-fa-dark-on-black-1600.png) ﺕﺎﻣ ﯽﮑﺸﻣ ﯼﻭﺭ ﻪﺨﺴﻧ .۱</text>
+      <g filter="url(#shadow)">
+        <rect width="1440" height="580" rx="20" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(120, 30) scale(0.62)">
+        
+    <g transform="translate(0, -10)">
+      
+    <g transform="translate(600, 295) scale(1.08)">
+      <circle cx="0" cy="0" r="82" fill="#0B0B0E"/>
+      <g stroke="#FAF7F2" stroke-width="1.6" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1.2" opacity="0.85"/>
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FAF7F2"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FAF7F2"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+      </g>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#FAF7F2" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="48" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="1.8"/>
+      <g fill="#FAF7F2">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FAF7F2"/>
+      </g>
+    </g>
+    
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="104px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FAF7F2"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FAF7F2" opacity="0.8"/>
+      <g fill="#FAF7F2">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#FAF7F2" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#0B0B0E"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FAF7F2"/>
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FAF7F2"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FAF7F2"/>
+      </g>
+      <path d="M 38,0 L 170,0" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FAF7F2"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FAF7F2" opacity="0.8"/>
+    </g>
+    
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <g transform="translate(600, 665)" opacity="0.85">
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+
+    <!-- Black on Ivory -->
+    <g transform="translate(1560, 0)">
+      <text x="720" y="-12" font-family="Tahoma, sans-serif" font-size="22px" font-weight="700" fill="#E2E8F0" text-anchor="middle">(radman-fa-black-on-ivory-1600.png) ﯽﺟﺎﻋ ﯼﻭﺭ ﻪﺨﺴﻧ .۲</text>
+      <g filter="url(#shadow)">
+        <rect width="1440" height="580" rx="20" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(120, 30) scale(0.62)">
+        
+    <g transform="translate(0, -10)">
+      
+    <g transform="translate(600, 295) scale(1.08)">
+      <circle cx="0" cy="0" r="82" fill="#FAF7F2"/>
+      <g stroke="#0B0B0E" stroke-width="1.6" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1.2" opacity="0.85"/>
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#0B0B0E"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#0B0B0E"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#0B0B0E"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#0B0B0E"/>
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#0B0B0E"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#0B0B0E"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#0B0B0E"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#0B0B0E"/>
+      </g>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#0B0B0E" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="48" fill="#FAF7F2" stroke="#0B0B0E" stroke-width="1.8"/>
+      <g fill="#0B0B0E">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#0B0B0E"/>
+      </g>
+    </g>
+    
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="104px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#0B0B0E" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#0B0B0E"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#0B0B0E" opacity="0.8"/>
+      <g fill="#0B0B0E">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#0B0B0E" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#FAF7F2"/>
+        <circle cx="0" cy="0" r="1.5" fill="#0B0B0E"/>
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#0B0B0E"/>
+        <circle cx="0" cy="21" r="1.8" fill="#0B0B0E"/>
+      </g>
+      <path d="M 38,0 L 170,0" stroke="#0B0B0E" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#0B0B0E"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#0B0B0E" opacity="0.8"/>
+    </g>
+    
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <g transform="translate(600, 665)" opacity="0.85">
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+  </g>
+
+  <!-- ROW 2: TRANSPARENT PREVIEWS ON CORRECT CONTRAST BACKGROUNDS -->
+  <g transform="translate(100, 920)">
+    <!-- Ivory Transparent Preview on Black -->
+    <g transform="translate(0, 0)">
+      <text x="720" y="-12" font-family="Tahoma, sans-serif" font-size="22px" font-weight="700" fill="#E2E8F0" text-anchor="middle">(radman-fa-ivory-transparent) ﯽﮑﺸﻣ ﯼﻭﺭ ﯽﺟﺎﻋ ﻑﺎﻔﺷ ﻪﺨﺴﻧ ﺶﯾﺎﻤﻧﺶﯿﭘ .۳</text>
+      <g filter="url(#shadow)">
+        <rect width="1440" height="580" rx="20" fill="#141418" stroke="#3F3F46" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(120, 30) scale(0.62)">
+        
+    <g transform="translate(0, -10)">
+      
+    <g transform="translate(600, 295) scale(1.08)">
+      <circle cx="0" cy="0" r="82" fill="#141418"/>
+      <g stroke="#FAF7F2" stroke-width="1.6" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1.2" opacity="0.85"/>
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FAF7F2"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FAF7F2"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+      </g>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#FAF7F2" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="48" fill="#141418" stroke="#FAF7F2" stroke-width="1.8"/>
+      <g fill="#FAF7F2">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FAF7F2"/>
+      </g>
+    </g>
+    
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="104px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FAF7F2"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FAF7F2" opacity="0.8"/>
+      <g fill="#FAF7F2">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#FAF7F2" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#141418"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FAF7F2"/>
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FAF7F2"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FAF7F2"/>
+      </g>
+      <path d="M 38,0 L 170,0" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FAF7F2"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FAF7F2" opacity="0.8"/>
+    </g>
+    
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <g transform="translate(600, 665)" opacity="0.85">
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+
+    <!-- Black Transparent Preview on Ivory -->
+    <g transform="translate(1560, 0)">
+      <text x="720" y="-12" font-family="Tahoma, sans-serif" font-size="22px" font-weight="700" fill="#E2E8F0" text-anchor="middle">(radman-fa-black-transparent) ﯽﺟﺎﻋ ﯼﻭﺭ ﯽﮑﺸﻣ ﻑﺎﻔﺷ ﻪﺨﺴﻧ ﺶﯾﺎﻤﻧﺶﯿﭘ .۴</text>
+      <g filter="url(#shadow)">
+        <rect width="1440" height="580" rx="20" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(120, 30) scale(0.62)">
+        
+    <g transform="translate(0, -10)">
+      
+    <g transform="translate(600, 295) scale(1.08)">
+      <circle cx="0" cy="0" r="82" fill="#FAF7F2"/>
+      <g stroke="#0B0B0E" stroke-width="1.6" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1.2" opacity="0.85"/>
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#0B0B0E"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#0B0B0E"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#0B0B0E"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#0B0B0E"/>
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#0B0B0E"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#0B0B0E"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#0B0B0E"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#0B0B0E"/>
+      </g>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#0B0B0E" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="48" fill="#FAF7F2" stroke="#0B0B0E" stroke-width="1.8"/>
+      <g fill="#0B0B0E">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#0B0B0E"/>
+      </g>
+    </g>
+    
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="104px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+      
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#0B0B0E" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#0B0B0E"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#0B0B0E" opacity="0.8"/>
+      <g fill="#0B0B0E">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#0B0B0E" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#FAF7F2"/>
+        <circle cx="0" cy="0" r="1.5" fill="#0B0B0E"/>
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#0B0B0E"/>
+        <circle cx="0" cy="21" r="1.8" fill="#0B0B0E"/>
+      </g>
+      <path d="M 38,0 L 170,0" stroke="#0B0B0E" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#0B0B0E"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#0B0B0E" opacity="0.8"/>
+    </g>
+    
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="30px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <g transform="translate(600, 665)" opacity="0.85">
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="15px" font-weight="700" fill="#0B0B0E" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+  </g>
+
+  <!-- ROW 3: ZOOM AUDITS (RADMAN, SHAMSA, SILVER 925) -->
+  <g transform="translate(100, 1600)">
+    <text x="0" y="-12" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#D4AF37">۹۲۵ ﺭﻮﻠﯿﺳ ﻭ ﻥﺎﻣﺩﺍﺭ ﻪﻤﻠﮐ ،ﻪﺴﻤﺷ — (Zoom Audit) ﺕﺎﯿﺋﺰﺟ ﯽﯾﺎﻤﻨﮔﺭﺰﺑ ﻭ ﻖﯿﻗﺩ ﯽﺳﺭﺮﺑ .۵</text>
+    
+    <!-- Zoom 1: Shamsa -->
+    <g transform="translate(0, 20)">
+      <g filter="url(#shadow)">
+        <rect width="960" height="560" rx="16" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="2"/>
+      </g>
+      <text x="480" y="38" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#FAF7F2" text-anchor="middle">(ﯽﺴﯿﻠﮕﻧﺍ ﺎﺑ ﻥﺎﺴﮑﯾ ٪۱۰۰ ﺭﺎﺘﺧﺎﺳ ﻆﻔﺣ) ﯽﺘﻨﻄﻠﺳ ﻪﺴﻤﺷ ﯽﯾﺎﻤﻨﮔﺭﺰﺑ</text>
+      <g transform="translate(480, 290) scale(1.65)">
+        
+    <g transform="translate(0, 0) scale(1.0)">
+      <circle cx="0" cy="0" r="82" fill="#0B0B0E"/>
+      <g stroke="#FAF7F2" stroke-width="1.6" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="2.2"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1.2" opacity="0.85"/>
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FAF7F2"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FAF7F2"/>
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FAF7F2"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FAF7F2"/>
+        <path d="M -66,66 L -50,55 L -58,-58 L -55,-50 Z" fill="#FAF7F2"/>
+      </g>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#FAF7F2" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.85"/>
+      <circle cx="0" cy="0" r="48" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="1.8"/>
+      <g fill="#FAF7F2">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FAF7F2"/>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+
+    <!-- Zoom 2: رادمان -->
+    <g transform="translate(1020, 20)">
+      <g filter="url(#shadow)">
+        <rect width="960" height="560" rx="16" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="2"/>
+      </g>
+      <text x="480" y="38" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#FAF7F2" text-anchor="middle">(ﻪﺘﺳﻮﯿﭘ ﻭ ﺭﺎﻗﻭﺎﺑ ،ﺎﻧﺍﻮﺧ — Bold ﻡﺪﻨﮔ ﺖﻧﻮﻓ) «ﻥﺎﻣﺩﺍﺭ» ﻪﻤﻠﮐ ﯽﯾﺎﻤﻨﮔﺭﺰﺑ</text>
+      <text x="480" y="310" font-family="Gandom, Tahoma, serif" font-size="175px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+    </g>
+
+    <!-- Zoom 3: سیلور ۹۲۵ -->
+    <g transform="translate(2040, 20)">
+      <g filter="url(#shadow)">
+        <rect width="960" height="560" rx="16" fill="#0B0B0E" stroke="#FAF7F2" stroke-width="2"/>
+      </g>
+      <text x="480" y="38" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#FAF7F2" text-anchor="middle">(ﺮﻔﺻ ﻑﻭﺮﺣ ﻪﻠﺻﺎﻓ ﺎﺑ ﻞﺼﺘﻣ ﻼﻣﺎﮐ ﺕﻻﺎﺼﺗﺍ) «۹۲۵ ﺭﻮﻠﯿﺳ» ﻥﺍﻮﻨﻋﺮﯾﺯ ﯽﯾﺎﻤﻨﮔﺭﺰﺑ</text>
+      <text x="480" y="300" font-family="Gandom, Tahoma, sans-serif" font-size="64px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+      <text x="480" y="410" font-family="Gandom, Tahoma, serif" font-size="28px" font-weight="700" fill="#FAF7F2" letter-spacing="0" text-anchor="middle">۱۴۰۵ ﺲﯿﺳﺄﺗ • ﻥﻭﺰﯿﻣ • ﮓﻨﯿﻟﺮﺘﺳﺍ</text>
+    </g>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="1600" y="2340" font-family="Tahoma, sans-serif" font-size="18px" fill="#71717A" text-anchor="middle">(Gandom Bold) ﻡﺪﻨﮔ ﺖﻧﻮﻓ ﺎﺑ ﯽﺳﺭﺎﻓ ﻪﺨﺴﻧ ﯽﯾﺎﻬﻧ ﺪﯿﻟﻮﺗ ﯽﺳﺭﺮﺑ ﺖﯿﺷ — (RADMAN SILVER 925) ﺭﻮﻠﯿﺳ ﻥﺎﻣﺩﺍﺭ</text>
+</svg>
