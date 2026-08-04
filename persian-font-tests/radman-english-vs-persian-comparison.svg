@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="comp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121217"/>
+      <stop offset="100%" stop-color="#09090C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Sheet Background -->
+  <rect width="3200" height="1800" fill="url(#comp-bg)"/>
+
+  <!-- Top Header -->
+  <line x1="100" y1="55" x2="3100" y2="55" stroke="#E2E8F0" stroke-width="3" opacity="0.8"/>
+  <text x="1600" y="110" font-family="Tahoma, sans-serif" font-size="38px" font-weight="700" fill="#FFFFFF" letter-spacing="4" text-anchor="middle">(ﻡﺪﻨﮔ ﺖﻧﻮﻓ) ﯽﺳﺭﺎﻓ ﻪﺨﺴﻧ ﺭﺎﻨﮐ ﺭﺩ ﯽﺴﯿﻠﮕﻧﺍ ﻩﺪﺷﺐﯾﻮﺼﺗ ﯼﻮﮔﻮﻟ ﻢﯿﻘﺘﺴﻣ ﻪﺴﯾﺎﻘﻣ — (RADMAN SILVER 925) ﺭﻮﻠﯿﺳ ﻥﺎﻣﺩﺍﺭ</text>
+  <text x="1600" y="150" font-family="Tahoma, sans-serif" font-size="18px" font-weight="600" fill="#E2E8F0" text-anchor="middle">ﯽﺳﺭﺎﻓ ﻪﺨﺴﻧ ﺭﺩ ﺕﺎﻨﯿﯾﺰﺗ ﻭ ﯽﺘﻨﻄﻠﺳ ﻪﺴﻤﺷ ﻥﺎﺴﮑﯾ ٪۱۰۰ ﺭﺎﺘﺧﺎﺳ ﺶﯾﺎﻤﻧ • (ﺮﯿﯿﻐﺗ ﻥﻭﺪﺑ) ﺖﺳﺍ ﻩﺪﺷﺪﯿﯾﺄﺗ ﻭ ﻩﺪﺷﻞﻔﻗ ﻪﺨﺴﻧ ﻥﺎﻤﻫ ﺎﻘﯿﻗﺩ ﯽﺴﯿﻠﮕﻧﺍ ﯼﻮﮔﻮﻟ</text>
+  <line x1="100" y1="185" x2="3100" y2="185" stroke="#E2E8F0" stroke-width="3" opacity="0.8"/>
+
+  <!-- ========================================== -->
+  <!-- ROW 1: ON MATTE BLACK (#0B0B0E) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 240)">
+    <text x="0" y="-12" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(ﯽﺘﻨﻄﻠﺳ ﻪﺴﻤﺷ ﻥﺎﻤﻫ ﺎﺑ) ﯽﺳﺭﺎﻓ ﯼﻮﮔﻮﻟ :ﺖﺳﺍﺭ ﺖﻤﺳ  |  (ﻩﺪﺷﺪﯿﯾﺄﺗ) ﯽﺴﯿﻠﮕﻧﺍ ﯽﻤﺳﺭ ﯼﻮﮔﻮﻟ :ﭗﭼ ﺖﻤﺳ — (0B0B0E#) ﺕﺎﻣ ﯽﮑﺸﻣ ﻪﻨﯿﻣﺯﺲﭘ ﯼﻭﺭ .۱</text>
+    
+    <!-- Left: EXACT APPROVED ENGLISH LOGO ON BLACK (Rendered cleanly from radman-logo-master) -->
+    <g transform="translate(0, 25)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="660" rx="20" fill="#0B0B0E" stroke="#E2E8F0" stroke-width="2.5"/>
+      </g>
+      <text x="720" y="40" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#E2E8F0" text-anchor="middle">EXACT APPROVED ENGLISH LOGO (RADMAN SILVER 925)</text>
+      <g transform="translate(120, 60) scale(0.68)">
+        <g transform="translate(0, -10)">
+    
+    <!-- 1. ROYAL MONOGRAM CREST -->
+    
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(600, 295) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#E2E8F0" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FFFFFF"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FFFFFF"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FFFFFF"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FFFFFF"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FFFFFF"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#FFFFFF">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FFFFFF"/>
+      </g>
+    </g>
+    
+
+    <!-- 2. PRIMARY BRAND NAME: "RADMAN" -->
+    <text x="600" y="485" font-family="Cinzel, 'Cormorant Garamond', Didot, 'Bodoni MT', Liberation Serif, Times, serif" font-size="68px" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      <tspan x="435">R</tspan>
+      <tspan x="501">A</tspan>
+      <tspan x="567">D</tspan>
+      <tspan x="633">M</tspan>
+      <tspan x="699">A</tspan>
+      <tspan x="765">N</tspan>
+    </text>
+
+    <!-- 3. MINIMALIST PERSIAN ROYAL GEOMETRIC ORNAMENT -->
+    
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(600, 538) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FFFFFF" opacity="0.8"/>
+      
+      <g fill="#FFFFFF">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FFFFFF"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+    
+
+    <!-- 4. SECONDARY TAGLINE: "SILVER 925" -->
+    <text x="600" y="598" font-family="Montserrat, 'Helvetica Neue', Arial, Liberation Sans, sans-serif" font-size="18px" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      <tspan x="456">S</tspan>
+      <tspan x="484">I</tspan>
+      <tspan x="512">L</tspan>
+      <tspan x="540">V</tspan>
+      <tspan x="568">E</tspan>
+      <tspan x="596">R</tspan>
+      <tspan x="644">9</tspan>
+      <tspan x="672">2</tspan>
+      <tspan x="700">5</tspan>
+    </text>
+
+    <!-- 5. HERITAGE / STERLING HALLMARK SIGNATURE -->
+    <g transform="translate(600, 665)" opacity="0.85">
+      <rect x="-115" y="-13" width="230" height="26" rx="2" fill="none" stroke="#E2E8F0" stroke-width="1" opacity="0.6"/>
+      <text x="0" y="5" font-family="Cinzel, 'Cormorant Garamond', Liberation Serif, serif" font-size="12px" font-weight="700" fill="#E2E8F0" letter-spacing="4" text-anchor="middle">STERLING • MAISON • EST. 2026</text>
+    </g>
+
+  </g>
+
+      </g>
+    </g>
+
+    <!-- Right: PERSIAN LOGO WITH 100% IDENTICAL ROYAL SHAMSA CREST & ORNAMENT -->
+    <g transform="translate(1560, 25)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="660" rx="20" fill="#0B0B0E" stroke="#E2E8F0" stroke-width="2.5"/>
+      </g>
+      <text x="720" y="40" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#E2E8F0" text-anchor="middle">(Bold ﻡﺪﻨﮔ ﺖﻧﻮﻓ — ۹۲۵ ﺭﻮﻠﯿﺳ ﻥﺎﻣﺩﺍﺭ) ﯽﺘﻨﻄﻠﺳ ﻪﺴﻤﺷ ﻥﺎﻤﻫ ﺎﺑ ﯽﺳﺭﺎﻓ ﯼﻮﮔﻮﻟ</text>
+      <g transform="translate(120, 60) scale(0.68)">
+        
+    <g transform="translate(0, -10)">
+      <!-- 1. ROYAL MONOGRAM CREST (100% IDENTICAL TO ENGLISH LOGO) -->
+      
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(600, 295) scale(1.08)">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#E2E8F0" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#FFFFFF"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#FFFFFF"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#FFFFFF"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#FFFFFF"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#FFFFFF"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#FFFFFF"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#FFFFFF">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#FFFFFF"/>
+      </g>
+    </g>
+    
+
+      <!-- 2. PERSIAN WORDMARK: رادمان (GANDOM BOLD) -->
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="96px" font-weight="700" fill="#FFFFFF" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+
+      <!-- 3. MINIMALIST PERSIAN ROYAL GEOMETRIC ORNAMENT (100% IDENTICAL TO ENGLISH LOGO) -->
+      
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#FFFFFF" opacity="0.8"/>
+      
+      <g fill="#FFFFFF">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
+        <circle cx="0" cy="21" r="1.8" fill="#FFFFFF"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#FFFFFF"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+    
+
+      <!-- 4. SECONDARY TAGLINE: سیلور ۹۲۵ (letter-spacing=0) -->
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="28px" font-weight="700" fill="#FFFFFF" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+
+      <!-- 5. HERITAGE SIGNATURE -->
+      <g transform="translate(600, 665)" opacity="0.85">
+        <rect x="-135" y="-14" width="270" height="28" rx="2" fill="none" stroke="#E2E8F0" stroke-width="1" opacity="0.6"/>
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="14px" font-weight="700" fill="#E2E8F0" letter-spacing="0" text-anchor="middle">ﻥﺍﺮﯾﺍ • ﻩﺮﻘﻧ ﺕﺍﺮﻫﺍﻮﺟ ﻪﻋﻮﻤﺠﻣ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 2: ON IVORY (#FAF7F2) -->
+  <!-- ========================================== -->
+  <g transform="translate(100, 1020)">
+    <text x="0" y="-12" font-family="Tahoma, sans-serif" font-size="24px" font-weight="700" fill="#E2E8F0">(ﯽﺘﻨﻄﻠﺳ ﻪﺴﻤﺷ ﻥﺎﻤﻫ ﺎﺑ) ﯽﺳﺭﺎﻓ ﯼﻮﮔﻮﻟ :ﺖﺳﺍﺭ ﺖﻤﺳ  |  (ﻩﺪﺷﺪﯿﯾﺄﺗ) ﯽﺴﯿﻠﮕﻧﺍ ﯽﻤﺳﺭ ﯼﻮﮔﻮﻟ :ﭗﭼ ﺖﻤﺳ — (FAF7F2#) ﯽﺟﺎﻋ ﻪﻨﯿﻣﺯﺲﭘ ﯼﻭﺭ .۲</text>
+    
+    <!-- Left: EXACT APPROVED ENGLISH LOGO ON IVORY -->
+    <g transform="translate(0, 25)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="660" rx="20" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <text x="720" y="40" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#18181B" text-anchor="middle">EXACT APPROVED ENGLISH LOGO ON IVORY</text>
+      <g transform="translate(120, 60) scale(0.68)">
+        <g transform="translate(0, -10)">
+    
+    <!-- 1. ROYAL MONOGRAM CREST -->
+    
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(600, 295) scale(1.08)" filter="none">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#18181B" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#18181B"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#18181B"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#18181B"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#18181B"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#18181B"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#18181B"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#18181B"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#18181B"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#18181B" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#18181B" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#18181B">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#18181B"/>
+      </g>
+    </g>
+    
+
+    <!-- 2. PRIMARY BRAND NAME: "RADMAN" -->
+    <text x="600" y="485" font-family="Cinzel, 'Cormorant Garamond', Didot, 'Bodoni MT', Liberation Serif, Times, serif" font-size="68px" font-weight="700" fill="#18181B" text-anchor="middle">
+      <tspan x="435">R</tspan>
+      <tspan x="501">A</tspan>
+      <tspan x="567">D</tspan>
+      <tspan x="633">M</tspan>
+      <tspan x="699">A</tspan>
+      <tspan x="765">N</tspan>
+    </text>
+
+    <!-- 3. MINIMALIST PERSIAN ROYAL GEOMETRIC ORNAMENT -->
+    
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(600, 538) scale(1.0)" filter="none">
+      <path d="M -170,0 L -38,0" stroke="#18181B" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#18181B"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#18181B" opacity="0.8"/>
+      
+      <g fill="#18181B">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#18181B" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#18181B"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#18181B"/>
+        <circle cx="0" cy="21" r="1.8" fill="#18181B"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#18181B" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#18181B"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#18181B" opacity="0.8"/>
+    </g>
+    
+
+    <!-- 4. SECONDARY TAGLINE: "SILVER 925" -->
+    <text x="600" y="598" font-family="Montserrat, 'Helvetica Neue', Arial, Liberation Sans, sans-serif" font-size="18px" font-weight="700" fill="#18181B" text-anchor="middle">
+      <tspan x="456">S</tspan>
+      <tspan x="484">I</tspan>
+      <tspan x="512">L</tspan>
+      <tspan x="540">V</tspan>
+      <tspan x="568">E</tspan>
+      <tspan x="596">R</tspan>
+      <tspan x="644">9</tspan>
+      <tspan x="672">2</tspan>
+      <tspan x="700">5</tspan>
+    </text>
+
+    <!-- 5. HERITAGE / STERLING HALLMARK SIGNATURE -->
+    <g transform="translate(600, 665)" opacity="0.85">
+      <rect x="-115" y="-13" width="230" height="26" rx="2" fill="none" stroke="#18181B" stroke-width="1" opacity="0.6"/>
+      <text x="0" y="5" font-family="Cinzel, 'Cormorant Garamond', Liberation Serif, serif" font-size="12px" font-weight="700" fill="#18181B" letter-spacing="4" text-anchor="middle">STERLING • MAISON • EST. 2026</text>
+    </g>
+
+  </g>
+
+      </g>
+    </g>
+
+    <!-- Right: PERSIAN LOGO ON IVORY -->
+    <g transform="translate(1560, 25)">
+      <g filter="url(#shadow)">
+        <rect width="1440" height="660" rx="20" fill="#FAF7F2" stroke="#D4D4D8" stroke-width="2.5"/>
+      </g>
+      <text x="720" y="40" font-family="Tahoma, sans-serif" font-size="16px" font-weight="700" fill="#18181B" text-anchor="middle">(ﻪﺘﺳﻮﯿﭘ ﺕﻻﺎﺼﺗﺍ ﺎﺑ Bold ﻡﺪﻨﮔ ﺖﻧﻮﻓ) ﯽﺟﺎﻋ ﻪﻨﯿﻣﺯﺲﭘ ﯼﻭﺭ ﯽﺳﺭﺎﻓ ﯼﻮﮔﻮﻟ</text>
+      <g transform="translate(120, 60) scale(0.68)">
+        
+    <g transform="translate(0, -10)">
+      <!-- 1. ROYAL MONOGRAM CREST (100% IDENTICAL TO ENGLISH LOGO) -->
+      
+    <!-- ROYAL PERSIAN SHAMSA / FRENCH MAISON MONOGRAM CREST -->
+    <g transform="translate(600, 295) scale(1.08)">
+      <!-- Outer Octagonal Shamsa Star Geometry (Persian Khatam Motif) -->
+      <g stroke="#52525B" stroke-width="1.3" fill="none" opacity="0.95">
+        <polygon points="0,-82 58,-58 82,0 58,58 0,82 -58,58 -82,0 -58,-58" stroke-width="1.8"/>
+        <polygon points="0,-68 48,-48 68,0 48,48 0,68 -48,48 -68,0 -48,-48" stroke-width="1" opacity="0.75"/>
+        
+        <path d="M 0,-94 L 7,-78 L 0,-82 L -7,-78 Z" fill="#18181B"/>
+        <path d="M 0,94 L 7,78 L 0,82 L -7,-78 Z" fill="#18181B"/>
+        <path d="M -94,0 L -78,7 L -82,0 L -78,-7 Z" fill="#18181B"/>
+        <path d="M 94,0 L 78,7 L 82,0 L 78,-7 Z" fill="#18181B"/>
+        
+        <path d="M 66,-66 L 50,-55 L 58,-58 L 55,-50 Z" fill="#18181B"/>
+        <path d="M -66,-66 L -50,-55 L -58,-58 L -55,-50 Z" fill="#18181B"/>
+        <path d="M 66,66 L 50,55 L 58,58 L 55,50 Z" fill="#18181B"/>
+        <path d="M -66,66 L -50,55 L -58,58 L -55,50 Z" fill="#18181B"/>
+      </g>
+
+      <!-- Inner Geometry Rings -->
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#52525B" stroke-width="1" stroke-dasharray="3 3" opacity="0.75"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#52525B" stroke-width="1.4"/>
+
+      <!-- Persian-French Haute Calligraphy Monogram 'R' -->
+      <g fill="#18181B">
+        <path d="M -22,-32 L -14,-32 L -14,28 L -22,28 L -22,32 L -4,32 L -4,28 L -10,28 L -10,-28 L -4,-28 L -4,-32 L -22,-32 Z"/>
+        <path d="M -10,-32 C 5,-32 24,-33 24,-14 C 24,1 12,6 -4,7 L -10,7 L -10,-32 Z M -6,-28 L -6,3 C 7,3 18,1 18,-13 C 18,-27 7,-28 -6,-28 Z"/>
+        <path d="M -1,4 C 6,4 12,14 19,25 C 23,31 27,33 34,32 L 34,28 C 29,29 25,26 21,20 C 14,10 9,1 2,1 L -10,1 L -10,5 L -1,4 Z"/>
+        <polygon points="4,-15 6,-13 4,-11 2,-13" fill="#18181B"/>
+      </g>
+    </g>
+    
+
+      <!-- 2. PERSIAN WORDMARK: رادمان (GANDOM BOLD) -->
+      <text x="600" y="485" font-family="Gandom, Tahoma, serif" font-size="96px" font-weight="700" fill="#18181B" letter-spacing="0" text-anchor="middle">ﻥﺎﻣﺩﺍﺭ</text>
+
+      <!-- 3. MINIMALIST PERSIAN ROYAL GEOMETRIC ORNAMENT (100% IDENTICAL TO ENGLISH LOGO) -->
+      
+    <!-- MINIMALIST GEOMETRIC PERSIAN STAR ORNAMENT -->
+    <g transform="translate(600, 538) scale(1.0)">
+      <path d="M -170,0 L -38,0" stroke="#52525B" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-170" cy="0" r="2" fill="#18181B"/>
+      <polygon points="-110,-3 -107,0 -110,3 -113,0" fill="#18181B" opacity="0.8"/>
+      
+      <g fill="#18181B">
+        <polygon points="0,-14 5,-5 14,0 5,5 0,14 -5,5 -14,0 -5,-5" opacity="0.95"/>
+        <polygon points="0,-10 7,-7 10,0 7,7 0,10 -7,7 -10,0 -7,-7" fill="none" stroke="#52525B" stroke-width="1.2"/>
+        <polygon points="0,-5 5,0 0,5 -5,0" fill="#111114"/>
+        <circle cx="0" cy="0" r="1.5" fill="#18181B"/>
+        
+        <polygon points="-24,0 -20,-3.5 -16,0 -20,3.5"/>
+        <polygon points="24,0 20,-3.5 16,0 20,3.5"/>
+        <circle cx="0" cy="-21" r="1.8" fill="#18181B"/>
+        <circle cx="0" cy="21" r="1.8" fill="#18181B"/>
+      </g>
+      
+      <path d="M 38,0 L 170,0" stroke="#52525B" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="170" cy="0" r="2" fill="#18181B"/>
+      <polygon points="110,-3 113,0 110,3 107,0" fill="#18181B" opacity="0.8"/>
+    </g>
+    
+
+      <!-- 4. SECONDARY TAGLINE: سیلور ۹۲۵ (letter-spacing=0) -->
+      <text x="600" y="598" font-family="Gandom, Tahoma, sans-serif" font-size="28px" font-weight="700" fill="#18181B" letter-spacing="0" text-anchor="middle">۹۲۵ ﺭﻮﻠﯿﺳ</text>
+
+      <!-- 5. HERITAGE SIGNATURE -->
+      <g transform="translate(600, 665)" opacity="0.85">
+        <rect x="-135" y="-14" width="270" height="28" rx="2" fill="none" stroke="#52525B" stroke-width="1" opacity="0.6"/>
+        <text x="0" y="6" font-family="Gandom, Tahoma, serif" font-size="14px" font-weight="700" fill="#3F3F46" letter-spacing="0" text-anchor="middle">ﻥﺍﺮﯾﺍ • ﻩﺮﻘﻧ ﺕﺍﺮﻫﺍﻮﺟ ﻪﻋﻮﻤﺠﻣ</text>
+      </g>
+    </g>
+    
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="1600" y="1760" font-family="Tahoma, sans-serif" font-size="18px" fill="#71717A" text-anchor="middle">ﺖﯿﺷ ﮏﯾ ﺭﺩ ﯽﺳﺭﺎﻓ ﻪﺨﺴﻧ ﺎﺑ ﻩﺪﺷﻞﻔﻗ ﯽﺴﯿﻠﮕﻧﺍ ﯼﻮﮔﻮﻟ ﻢﯿﻘﺘﺴﻣ ﻪﺴﯾﺎﻘﻣ — (RADMAN SILVER 925) ﺭﻮﻠﯿﺳ ﻥﺎﻣﺩﺍﺭ</text>
+</svg>
