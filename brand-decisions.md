@@ -1,31 +1,35 @@
-# Brand Decisions Log  
-  
-## RADMAN SILVER 925  
-- Brand name: FINALIZED  
-- Domains: radmansilver.ir (primary), radman925.ir (redirect)  
-- Logo: **FINAL and CORRECTED (colorway-fixed version)**  
-- Date of approval: 2026-08-04  
-- Approved Canonical Files (`brand-assets/radman-silver/APPROVED/`):  
-  - Dark Fixed: `radman-english-dark-on-black.png`, `radman-english-dark-on-black.svg`  
-  - Light Fixed: `radman-english-black-on-ivory.png`, `radman-english-black-on-ivory.svg`  
-  - Ivory Transparent: `radman-english-ivory-transparent.png`, `radman-english-ivory-transparent.svg`  
-  - Black Transparent: `radman-english-black-transparent.png`, `radman-english-black-transparent.svg`  
-  - Monograms: `radman-monogram-ivory-on-black-512.png` / `.svg`, `radman-monogram-black-on-ivory-512.png` / `.svg`, `radman-monogram-ivory-transparent-512.svg`, `radman-monogram-black-transparent-512.svg`  
-  - Usage Documentation: `radman-logo-usage-guide.md`, `radman-logo-final-usage-sheet.png`  
-  - Note: All previous incorrect files moved to `brand-assets/radman-silver/APPROVED/deprecated/`.  
-## RIDELIN  
-- Brand name: FINALIZED  
-- Domain: ridelin.ir  
-- Logo: **APPROVED AND CLOSED (Phase 1)**  
-- Date of approval: 2026-08-04  
-- Approved Final Files (`brand-assets/ridelin/APPROVED/`):  
-  - Website Header (Pure Wordmark + Line, zero circle, zero subtext, Primary Burgundy #8A2747): `ridelin-header-transparent-1600.png`, `ridelin-header-black-transparent-1600.png`, `ridelin-header-on-black-1600.png`, `ridelin-header-on-ivory-1600.png`, and SVGs  
-  - Packaging & Print (Wordmark + Line + single tagline 'RIDE YOUR WAY'): `ridelin-packaging-on-black-1600.png`, `ridelin-packaging-on-ivory-1600.png`, and SVGs  
-  - Primary Icon / Social Avatar (Single Chic English 'R' Monogram): `ridelin-monogram-white-512.png`, `ridelin-monogram-black-512.png`, `ridelin-monogram-white.svg`, `ridelin-monogram-black.svg`  
-  - Favicons & iOS App Icons: `favicon-32.png`, `favicon-32.svg`, `apple-touch-icon-180.png`, `apple-touch-icon-180.svg`  
-  - Master Confirmation Sheet: `ridelin-APPROVED-confirmation.png`, `ridelin-APPROVED-confirmation.svg`  
-  - Documentation: `usage-guide.md`  
-  
-## Status  
-- Priority: Launch websites fast, acquire customers  
-- Logos: RADMAN SILVER & RIDELIN Phase 1 Approved & Closed; ready for WooCommerce deployment  
+# Master Log of Approved Brand Decisions
+
+This master record tracks all officially approved brand identity decisions for **RADMAN SILVER 925** (`radmansilver.ir`, `radman925.ir`) and **RIDELIN** (`ridelin.ir`).
+
+---
+
+## 1. RADMAN SILVER 925 (`رادمان سیلور ۹۲۵`)
+
+### A. English Brand Identity — **FINAL APPROVED & LOCKED**
+- **Wordmark Typography:** Customized French Didot serif (`RADMAN`) with modern geometric sans-serif subtext (`SILVER 925`) and spaced heritage micro-text (`STERLING • MAISON • EST. 2026`).
+- **Canonical Shamsa Crest:** 8-pointed Royal Shamsa star ornament with internal dotted ring, circular borders, and chic capital `'R'` monogram.
+- **Locked Colorway Palette:**
+  - Primary Dark: Matte Black background (`#0B0B0E`) with Ivory artwork (`#FAF7F2`).
+  - Primary Light: Ivory background (`#FAF7F2`) with Matte Black artwork (`#0B0B0E`), featuring a 100% clean Ivory interior inside the Shamsa and zero background rectangles behind text.
+- **Canonical Folder Location:** `brand-assets/radman-silver/APPROVED/`
+
+### B. Persian Brand Identity (`رادمان سیلور`) — **FINAL APPROVED & LOCKED**
+- **Approval Date:** Today (`2026-08-06` Asia/Singapore timezone)
+- **Approved Persian Wordmark Font:** **Estedad Bold (`استعداد Bold`)** (Version 8.5, SIL OFL 1.1 by Amin Abedi), offering chic modern geometric luxury proportions.
+- **Secondary Line Sizing (`سیلور ۹۲۵`):** **S2 Recommended Size** (approximately 50% visual width of `رادمان`), providing exceptional legibility in digital headers.
+- **Tagline Decision:**
+  - **Primary Website Logo (`T0` Minimal Version):** **NO TAGLINE** — clean lockup (`Shamsa + رادمان + سیلور ۹۲۵`) reserved for website headers, mobile viewports, and watermarks.
+  - **Secondary Brand Logo (`T2` Tagline Version):** **`اصالت در جزئیات`** (Authenticity in Details) — reserved for jewelry boxes, shopping bags, Instagram profile/posts, and "About Us" pages.
+- **RTL & BiDi Technical Standard:** Pillow native `libraqm` shaping (`RAQM = True`), logical Unicode strings, `direction="rtl"`, `language="fa"`. Zero manual string reversal.
+- **Canonical Folder Location:** `brand-assets/radman-silver/APPROVED-FA/`
+
+---
+
+## 2. RIDELIN (`رایدلین`)
+
+### A. English & Persian Phase 1 Brand Identity — **FINAL APPROVED & LOCKED**
+- **Wordmark & Horizon Line:** Pure minimalist geometric wordmark (`RIDELIN`) paired with the canonical speed blade horizon line below. Zero overlapping circle in header logos.
+- **Locked Colorway Palette:** Primary Burgundy (`#8A2747`), Deep Bordeaux (`#681B34`), Primary Black (`#0D0D10`), Ivory (`#FAF7F2`), Platinum (`#D9DCE3`), Charcoal Text (`#17171A`).
+- **Persian Wordmark Font:** **Shabnam Bold (`شبنم Bold`)** with short horizon speed line **L3 (`360px`)**.
+- **Canonical Folder Location:** `brand-assets/ridelin/APPROVED/` & `brand-assets/ridelin/APPROVED-FA/`
