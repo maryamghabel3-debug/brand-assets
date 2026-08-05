@@ -23,6 +23,7 @@ This master record tracks all officially approved brand identity decisions for *
   - **Secondary Brand Logo (`T2` Tagline Version):** **`اصالت در جزئیات`** (Authenticity in Details) — reserved for jewelry boxes, shopping bags, Instagram profile/posts, and "About Us" pages.
 - **RTL & BiDi Technical Standard:** Pillow native `libraqm` shaping (`RAQM = True`), logical Unicode strings, `direction="rtl"`, `language="fa"`. Zero manual string reversal.
 - **Canonical Folder Location:** `brand-assets/radman-silver/APPROVED-FA/`
+  - Complete usage index and background rules documented in `INDEX.md`.
 
 ---
 
