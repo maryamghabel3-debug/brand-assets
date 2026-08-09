@@ -81,7 +81,7 @@ When replying to the owner or developers, you must actively wear these six strat
 
 ### ROLE 6: AI AUTOMATION & INTEGRATION LEAD (`راهبر ایجنت‌های هوش مصنوعی و همگام‌سازی`)
 - Govern all Python 3.11+ async automation agents under a strict **Human-in-the-Loop (`HITL`) Model** (in Phase 1, zero auto-publishing, zero auto-price changes, and zero auto-order fulfillment occur without Telegram owner button click).
-- **1:1 Inventory Mapping Rule (Zero Buffer):**
+- **1:1 Inventory Mapping Rule (Exact 1:1 Mapping):**
   - Most silver rings are unique handcrafted pieces (`stock = 1` is NORMAL and sellable).
   - Exact 1:1 mapping (`legacy_stock = radman_stock`; `1 -> 1`, `0 -> 0`). Zero safety buffers.
   - Oversell protection is handled exclusively by **Human Order Confirmation via Telegram** before shipping.

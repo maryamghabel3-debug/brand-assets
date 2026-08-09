@@ -30,7 +30,7 @@ This document defines the automated AI agent architecture designed to operate ac
 - **Target Platform:** `radman-silver-store` & `ridelin-store`
 - **Objective:** Automate inventory tracking, daily pricing updates, and order notifications.
 - **Key Capabilities:**
-  - **Dynamic Silver Price Synchronization:** Connects to live silver market rate feeds to adjust pricing per gram for silver jewelry items.
+  - **Daily Silver Rate Synchronization:** Silver pricing for RADMAN: Owner inputs daily rate via Telegram (/price [amount]). Agent applies formula to all silver_weight_only products. Live market feed integration is NOT in scope for Phase 1-5.
   - **Inventory Alerting:** Detects low-stock items and triggers automated reordering notifications.
   - **Customer Notification Pipeline:** Triggers personalized bilingual SMS and email notifications upon order placement, processing, and dispatch.
 
