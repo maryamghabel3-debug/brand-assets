@@ -36,3 +36,20 @@ This master record tracks all officially approved brand identity decisions for *
 - **Locked Colorway Palette:** Primary Burgundy (`#8A2747`), Deep Bordeaux (`#681B34`), Primary Black (`#0D0D10`), Ivory (`#FAF7F2`), Platinum (`#D9DCE3`), Charcoal Text (`#17171A`).
 - **Persian Wordmark Font:** **Shabnam Bold (`شبنم Bold`)** with short horizon speed line **L3 (`360px`)**.
 - **Canonical Folder Location:** `brand-assets/ridelin/APPROVED/` & `brand-assets/ridelin/APPROVED-FA/`
+
+---
+
+## 3. Infrastructure & Hosting Architecture Decision Status — **PENDING TECHNICAL DUE DILIGENCE**
+- **Decision Date:** `2026-08-09` (`Asia/Tehran` timezone)
+- **Vendor-Neutral Requirement:** Production infrastructure must be hosted inside Iran and must pass the approved technical acceptance criteria. Final vendor, plan, and deployment architecture remain **PENDING** until technical due diligence is completed.
+- **Candidate Vendors Under Due Diligence:** **MizbanFa** (`میزبان‌فا`) and **ParsPack** (`پارس‌پک`) are candidate hosting providers under technical due diligence. Neither vendor is selected, approved, or preferred; no purchase authorization is granted.
+- **Architecture Status:** **`PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET`**.
+- **Launch Priority Strategy:**
+  - **RADMAN SILVER 925:** RADMAN launches before RIDELIN. RADMAN hosting vendor and architecture are NOT yet selected; candidates are under evaluation.
+  - **RIDELIN:** RIDELIN hosting procurement is deferred until RADMAN reaches stable staging/production operation. RIDELIN no-hosting work continues in parallel (including documentation, data model, static content, brand implementation planning, agent contracts, and QA preparation).
+- **Preservation of Business Rules:** All previously approved business rules remain strictly locked and unchanged:
+  - Exact 1:1 inventory mapping (`legacy_stock = radman_stock`, zero buffer logic, `stock = 1` sellable).
+  - Four official RADMAN pricing modes (`silver_weight_only`, `silver_weight_plus_stone`, `legacy_mirror`, `manual_locked`).
+  - Manual daily silver rate input via Telegram Bot (`/price <toman_per_gram>`) with interactive summary and button confirmation.
+  - Human-in-the-Loop (`HITL`) Telegram order confirmation (`[تأیید موجودی و ارسال]` / `[عدم موجودی و لغو]`) for every paid order.
+
