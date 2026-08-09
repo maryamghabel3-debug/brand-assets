@@ -42,8 +42,9 @@ RIDELIN:            [Phase 0: DONE] ──> [Phase 1: CURRENT] ──> [Phase 2+
 - [ ] Complete remaining RIDELIN-specific technical data modeling and inventory state schema.
 
 ### Phase 2: Infrastructure & Hosting Setup (RADMAN = CURRENT ⏭ | RIDELIN = PENDING ⏳)
+> **Current Architecture Decision Status:** PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET. RADMAN launches before RIDELIN. RADMAN hosting vendor and architecture are NOT yet selected; **MizbanFa** (`میزبان‌فا`) and **ParsPack** (`پارس‌پک`) are candidates under technical due diligence. RIDELIN hosting procurement is deferred until RADMAN reaches stable staging/production operation; RIDELIN no-hosting work continues in parallel.
 - [ ] Await hosting server readiness and DNS propagation for `radmansilver.ir`, `radman925.ir`, and `ridelin.ir`.
-- [ ] Provision **Iran Server Sonic 30** Linux cloud hosting (required for domestic Shetab gateways and legacy API reachability).
+- [ ] Provision Iranian Linux cloud hosting (`[HOSTING VENDOR / PLAN / ARCHITECTURE: TBD — pending technical due diligence]`, required for domestic Shetab gateways and legacy API reachability). Candidate hosting vendors under evaluation include MizbanFa and ParsPack. Status: PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET.
 - [ ] Configure Let's Encrypt TLS 1.3 HTTPS, Nginx reverse proxy, and MySQL 8.0+ / MariaDB 10.11+ (`utf8mb4_unicode_ci`).
 
 ### Phase 3: WordPress/WooCommerce Deployment (RADMAN = NEXT ⏳ | RIDELIN = PENDING ⏳)
@@ -55,7 +56,7 @@ RIDELIN:            [Phase 0: DONE] ──> [Phase 1: CURRENT] ──> [Phase 2+
 - [ ] Apply for Enamad trust badge, connect Zarinpal sandbox, connect Kavenegar SMS sandbox, and configure Telegram Bots.
 
 ### Phase 4: Agent Integration & Testing (PENDING ⏳)
-- [ ] Deploy `Agent-LegacySync` on Iran Server Sonic 30 to connect to `noghrehmashhad.ir` Admin Panel API.
+- [ ] Deploy `Agent-LegacySync` on the selected Iranian hosting server (`[HOSTING VENDOR / PLAN / ARCHITECTURE: TBD — pending technical due diligence]`) to connect to `noghrehmashhad.ir` Admin Panel API.
 - [ ] Enforce 1:1 Stock Reality (`stock = 1` is sellable, zero buffers) and 3-Tier Pricing Model.
 - [ ] Deploy `Agent-Pricing` with daily Telegram rate confirmation workflow (`/price 85000`).
 - [ ] Deploy `Agent-OrderApproval` Telegram HITL fulfillment bot.

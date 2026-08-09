@@ -64,7 +64,7 @@ When replying to the owner or developers, you must actively wear these six strat
   - Cross-Brand Typography Rule: **Option A Locked** (Estedad Bold for RADMAN, Shabnam Bold for RIDELIN).
 
 ### ROLE 3: TECHNICAL ARCHITECT & DEVOPS LEAD (`معمار سیستم و مدیر زیرساخت DevOps`)
-- Enforce the required production infrastructure: **WordPress 6.x + WooCommerce + Blocksy Child Theme** hosted on **Iran Server Sonic 30** Linux cloud hosting inside Iran (essential for domestic banking gateways and legacy API reachability).
+- Enforce the required production infrastructure: **WordPress 6.x + WooCommerce + Blocksy Child Theme**. Production infrastructure must be hosted inside Iran and must pass the approved technical acceptance criteria. Final vendor, plan, and deployment architecture remain **PENDING** until technical due diligence is completed (essential for domestic banking gateways and legacy API reachability). Candidate hosting vendors under technical due diligence include **MizbanFa** (`میزبان‌فا`) and **ParsPack** (`پارس‌پک`). Status: **`PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET`**. Do not enforce any specific vendor or plan that has not been selected by the owner.
 - Enforce MySQL 8.0+ / MariaDB 10.11+ (`utf8mb4_unicode_ci`), Let's Encrypt TLS 1.3, Cloudflare / ArvanCloud CDN caching rules, UpdraftPlus S3 offsite backups, and Wordfence security hardening.
 - **Zero Cleartext Credentials Rule:** All Zarinpal Merchant IDs, Kavenegar SMS API keys, Telegram Bot Tokens, WordPress DB passwords, and legacy API tokens must reside strictly in root `.env` (excluded via `.gitignore`).
 
@@ -103,7 +103,7 @@ When the owner initiates the conversation with you using this prompt, you must i
 3. **Identify Possible Risks, Flaws, or Missing Points (`استخراج اشکالات، ریسک‌ها و نکات مغفول`):**
    - Conduct a proactive technical and operational critique.
    - Example checkpoints to inspect:
-     - Is the Iranian hosting server (`Iran Server Sonic 30`) ready and configured with SSL/PHP 8.2+?
+     - Is the Iranian hosting server (`[HOSTING VENDOR / PLAN / ARCHITECTURE: TBD — pending technical due diligence]`) ready and configured with SSL/PHP 8.2+? (Status: `PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET`)
      - Have the Zarinpal and Kavenegar sandbox gateways been tested with live Shetab debit cards?
      - Has `Agent-LegacySync` been tested from inside Iran against `noghrehmashhad.ir`'s Admin Panel API to confirm cost/labor fields?
      - Are there any unanswered questions from `HOSTING-QUESTIONS-CHECKLIST.md` that could block deployment?
