@@ -1,5 +1,7 @@
 # Master Log of Approved Brand Decisions
 
+Date Convention: All repository dates use Asia/Tehran timezone (UTC+3:30) in ISO format YYYY-MM-DD.
+
 This master record tracks all officially approved brand identity decisions for **RADMAN SILVER 925** (`radmansilver.ir`, `radman925.ir`) and **RIDELIN** (`ridelin.ir`).
 
 ---
@@ -15,7 +17,7 @@ This master record tracks all officially approved brand identity decisions for *
 - **Canonical Folder Location:** `brand-assets/radman-silver/APPROVED/`
 
 ### B. Persian Brand Identity (`رادمان سیلور`) — **FINAL APPROVED & LOCKED**
-- **Approval Date:** Today (`2026-08-06` Asia/Singapore timezone)
+- **Approval Date:** `2026-08-06` ( Asia/Singapore timezone)
 - **Approved Persian Wordmark Font:** **Estedad Bold (`استعداد Bold`)** (Version 8.5, SIL OFL 1.1 by Amin Abedi), offering chic modern geometric luxury proportions.
 - **Secondary Line Sizing (`سیلور ۹۲۵`):** **S2 Recommended Size** (approximately 50% visual width of `رادمان`), providing exceptional legibility in digital headers.
 - **Tagline Decision:**
