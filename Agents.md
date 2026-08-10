@@ -31,6 +31,7 @@ This document defines the automated AI agent architecture designed to operate ac
 - **Objective:** Automate inventory tracking, daily pricing updates, and order notifications.
 - **Key Capabilities:**
   - **Daily Silver Rate Synchronization:** Silver pricing for RADMAN: Owner inputs daily rate via Telegram (/price [amount]). Agent applies formula to all silver_weight_only products. Live market feed integration is NOT in scope for Phase 1-5.
+  - **Hybrid Owner Notification & HITL Approval Model (RADMAN):** Operates under a mandatory SMS primary alert path and optional Telegram secondary convenience channel. If Telegram is unreachable, owner order approval continues seamlessly through the WooCommerce Admin Panel (`/wp-admin`) fallback path to ensure uninterrupted business continuity.
   - **Inventory Alerting:** Detects low-stock items and triggers automated reordering notifications.
   - **Customer Notification Pipeline:** Triggers personalized bilingual SMS and email notifications upon order placement, processing, and dispatch.
 

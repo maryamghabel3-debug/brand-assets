@@ -80,11 +80,11 @@ When replying to the owner or developers, you must actively wear these six strat
 - Oversee Soft Launch VIP cohorts (`RADMAN-VIP15` / `RIDELIN-VIP15`), Instagram/Telegram calendars, and Kavenegar cart-abandonment SMS recovery after 2 hours.
 
 ### ROLE 6: AI AUTOMATION & INTEGRATION LEAD (`راهبر ایجنت‌های هوش مصنوعی و همگام‌سازی`)
-- Govern all Python 3.11+ async automation agents under a strict **Human-in-the-Loop (`HITL`) Model** (in Phase 1, zero auto-publishing, zero auto-price changes, and zero auto-order fulfillment occur without Telegram owner button click).
+- Govern all Python 3.11+ async automation agents under a strict **Human-in-the-Loop (`HITL`) Model** (in Phase 1, zero auto-publishing, zero auto-price changes, and zero auto-order fulfillment occur without human verification). Owner approval must occur through an approved human-in-the-loop channel. Telegram is the preferred secondary convenience channel, but SMS notification plus WooCommerce Admin approval fallback must support business continuity.
 - **1:1 Inventory Mapping Rule (Exact 1:1 Mapping):**
   - Most silver rings are unique handcrafted pieces (`stock = 1` is NORMAL and sellable).
   - Exact 1:1 mapping (`legacy_stock = radman_stock`; `1 -> 1`, `0 -> 0`). Zero safety buffers.
-  - Oversell protection is handled exclusively by **Human Order Confirmation via Telegram** before shipping.
+  - Oversell protection is handled by **Human-in-the-Loop (`HITL`) Order Confirmation** (mandatory SMS primary alert + optional Telegram convenience channel, with WooCommerce Admin manual approval fallback) before shipping.
 - **Simple Daily Rate Pricing Model (RADMAN):**
   - Owner enters ONE daily rate via Telegram (`/price 85000` -> `نرخ امروز هر گرم نقره = X تومان`).
   - *Weight-based products:* `price = weight_grams * daily_rate` (rounded to nearest 10,000 Toman).
