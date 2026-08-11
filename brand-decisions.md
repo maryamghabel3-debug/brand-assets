@@ -39,14 +39,20 @@ This master record tracks all officially approved brand identity decisions for *
 
 ---
 
-## 3. Infrastructure & Hosting Architecture Decision Status — **PENDING TECHNICAL DUE DILIGENCE**
-- **Decision Date:** `2026-08-09` (`Asia/Tehran` timezone)
-- **Vendor-Neutral Requirement:** Production infrastructure must be hosted inside Iran and must pass the approved technical acceptance criteria. Final vendor, plan, and deployment architecture remain **PENDING** until technical due diligence is completed.
-- **Candidate Vendors Under Due Diligence:** **MizbanFa** (`میزبان‌فا`) and **ParsPack** (`پارس‌پک`) are candidate hosting providers under technical due diligence. Neither vendor is selected, approved, or preferred; no purchase authorization is granted.
-- **Architecture Status:** **`PENDING TECHNICAL DUE DILIGENCE — NO PURCHASE APPROVED YET`**.
+## 3. Infrastructure & Hosting Architecture Decision Status — **APPROVED FOR INITIAL TRIAL (NOT YET PURCHASED)**
+- **Decision Date:** `2026-08-10` (`Asia/Tehran` timezone)
+- **Official Status:** **`APPROVED FOR INITIAL ONE-MONTH PURCHASE AND STAGING TRIAL — NOT YET PURCHASED`** (Approved to purchase, but not yet purchased).
+- **Vendor and Plan:** **MizbanFa** (`میزبان‌فا`) Iran managed WooCommerce hosting, **Mars plan** (`مارس` — 60 GB NVMe, advertised 12 Cores / 12 GHz Equivalent CPU, advertised 12 GB RAM, cPanel).
+- **Scope Limitation:** **RADMAN SILVER only**. RIDELIN must not be installed or deployed on this host. Staging must be provisioned before any production deployment. Production deployment requires a separate reviewed approval after staging QA.
+- **Architecture & Agent Co-Location:** Storefront hosting on MizbanFa Mars is approved for the initial trial. Co-locating Python agents on the same host is **`CONDITIONAL — pending post-purchase Python/Cron/outbound connectivity acceptance tests.`** Python agents may be deployed on the same host only after real verification of Python, pip, venv, Cron runtime, outbound HTTPS, filesystem permissions, process limits, and Legacy API connectivity. If those checks fail during the refund/test window, agents must be moved to a separate runner without blocking the WooCommerce storefront.
+- **Review Deadline:** **Review within 30 days after the actual provisioning date and before production launch, whichever occurs first. Provisioning date: TBD.** This is a temporary operational decision for launch speed, not a permanent multi-year architecture lock. All architecture evaluations and host separations obey this absolute decision/review rule.
+- **Owner Notification Model:** `SMS mandatory, Telegram optional, WooCommerce Admin fallback allowed` (SMS via Kavenegar is mandatory; Telegram is optional; WooCommerce Admin is the fallback HITL approval path; Telegram availability must not be a single point of failure).
+- **Database Yellow Flag:** Vendor support reported MariaDB 10.3.39. Actual database version must be detected after provisioning. Status: **`STAGING-ONLY TEMPORARY COMPATIBILITY WAIVER; production acceptance pending.`** MariaDB 10.3.x is accepted only for staging compatibility testing with an explicit waiver (`ALLOW_LEGACY_DB_FOR_STAGING=1`). It is not automatically approved as the permanent production database. Production Go/No-Go must remain blocked until database compatibility, security risk, and upgrade options are reviewed.
+- **Cache Policy:** **`LiteSpeed Cache active, WP Rocket inactive, Redis conditional.`** (LiteSpeed Cache is the selected project page-cache plugin; LiteSpeed Cache and WP Rocket must not be activated simultaneously. Redis persistent object cache may only be activated after real connectivity verification. Distinguish vendor-provided features from project-approved active configuration).
+- **Refund/Test Window:** Vendor support stated a 14-day test/refund window. Mark it: **`TO BE RECONFIRMED AGAINST THE PURCHASE TERMS AT CHECKOUT.`**
 - **Launch Priority Strategy:**
-  - **RADMAN SILVER 925:** RADMAN launches before RIDELIN. RADMAN hosting vendor and architecture are NOT yet selected; candidates are under evaluation.
-  - **RIDELIN:** RIDELIN hosting procurement is deferred until RADMAN reaches stable staging/production operation. RIDELIN no-hosting work continues in parallel (including documentation, data model, static content, brand implementation planning, agent contracts, and QA preparation).
+  - **RADMAN SILVER 925:** RADMAN has launch priority and is approved for initial one-month purchase and staging trial on MizbanFa Mars.
+  - **RIDELIN:** RIDELIN must not be installed or deployed on this host. RIDELIN hosting procurement is deferred until RADMAN reaches stable staging/production operation. RIDELIN no-hosting work continues in parallel (including documentation, data model, static content, brand implementation planning, agent contracts, and QA preparation).
 - **Preservation of Business Rules:** All previously approved business rules remain strictly locked and unchanged:
   - Exact 1:1 inventory mapping (`legacy_stock = radman_stock`, zero buffer logic, `stock = 1` sellable).
   - Four official RADMAN pricing modes (`silver_weight_only`, `silver_weight_plus_stone`, `legacy_mirror`, `manual_locked`).
